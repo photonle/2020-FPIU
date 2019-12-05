@@ -910,83 +910,90 @@ EMV.Selections = {
 	{
 		Name = "Visor Lights",
 		Options = {
-			{
-				Name = "None",
-				Auto = {},
-				Props = {}
-			},
 			-- R/B
-			{
-				Category = "Red/Blue",
-				Name = "Custom",
-				Auto = {2},
-				Props = {}
-			},
 			{
 				Category = "Red/Blue",
 				Name = "Stock",
 				Auto = {13},
-				Props = {}
+				Bodygroups = {{4, 0}},
+			},
+			{
+				Category = "Red/Blue",
+				Name = "Custom",
+				Auto = {2},
+				Bodygroups = {{4, 0}},
 			},
 			-- B/B
 			{
-				Category = "Blue/Blue",
-				Name = "Custom",
-				Auto = {16},
-				Props = {}
-			},
-			{
-				Category = "Blue/Blue",
+				Category = "Blue",
 				Name = "Stock",
 				Auto = {26},
-				Props = {}
+				Bodygroups = {{4, 0}},
+			},
+			{
+				Category = "Blue",
+				Name = "Custom",
+				Auto = {16},
+				Bodygroups = {{4, 0}},
 			},
 			-- R/R
 			{
-				Category = "Red/Red",
-				Name = "Custom",
-				Auto = {30},
-				Props = {}
-			},
-			{
-				Category = "Red/Red",
+				Category = "Red",
 				Name = "Stock",
 				Auto = {41},
-				Props = {}
+				Bodygroups = {{4, 0}},
+			},
+			{
+				Category = "Red",
+				Name = "Custom",
+				Auto = {30},
+				Bodygroups = {{4, 0}},
 			},
 			-- A/A
 			{
-				Category = "Amber/Amber",
-				Name = "Custom",
-				Auto = {44},
-				Props = {}
-			},
-			{
-				Category = "Amber/Amber",
+				Category = "Amber",
 				Name = "Stock",
 				Auto = {54},
-				Props = {}
+				Bodygroups = {{4, 0}},
+			},
+			{
+				Category = "Amber",
+				Name = "Custom",
+				Auto = {44},
+				Bodygroups = {{4, 0}},
 			},
 			-- A/W
 			{
 				Category = "Amber/White",
-				Name = "Custom",
-				Auto = {58},
-				Props = {}
+				Name = "Stock",
+				Auto = {68},
+				Bodygroups = {{4, 0}},
 			},
 			{
 				Category = "Amber/White",
-				Name = "Stock",
-				Auto = {68},
-				Props = {}
+				Name = "Custom",
+				Auto = {58},
+				Bodygroups = {{4, 0}},
 			},
 			-- G/G
 			{
-				Category = "Green/Green",
+				Category = "Green",
+				Name = "Stock",
+				Auto = {82},
+				Bodygroups = {{4, 0}},
+			},
+			{
+				Category = "Green",
 				Name = "Custom",
 				Auto = {72},
-				Props = {}
-			}
+				Bodygroups = {{4, 0}},
+			},
+			-- Empty
+			{
+				Name = "None",
+				Auto = {},
+				Bodygroups = {{4, 1}},
+			},
 		}
 	},
 	{
