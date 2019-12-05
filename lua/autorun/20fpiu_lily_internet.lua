@@ -1474,40 +1474,40 @@ EMV.Selections = {
 		Name = "Fog Lights",
 		Options = {
 			{
+				Name = "Red/Blue",
+				Auto = {12},
+				Bodygroups = {{9, 0}}
+			},
+			{
+				Name = "Blue",
+				Auto = {25},
+				Bodygroups = {{9, 0}}
+			},
+			{
+				Name = "Red",
+				Auto = {39},
+				Bodygroups = {{9, 0}}
+			},
+			{
+				Name = "Amber",
+				Auto = {53},
+				Bodygroups = {{9, 0}}
+			},
+			{
+				Name = "Amber/White",
+				Auto = {67},
+				Bodygroups = {{9, 0}}
+			},
+			{
+				Name = "Green",
+				Auto = {81},
+				Bodygroups = {{9, 0}}
+			},
+			{
 				Name = "None",
 				Auto = {},
-				Props = {}
+				Bodygroups = {{9, 1}}
 			},
-			{
-				Name = "R/B",
-				Auto = {12},
-				Props = {}
-			},
-			{
-				Name = "B/B",
-				Auto = {25},
-				Props = {}
-			},
-			{
-				Name = "R/R",
-				Auto = {39},
-				Props = {}
-			},
-			{
-				Name = "A/A",
-				Auto = {53},
-				Props = {}
-			},
-			{
-				Name = "A/W",
-				Auto = {67},
-				Props = {}
-			},
-			{
-				Name = "G/G",
-				Auto = {81},
-				Props = {}
-			}
 		}
 	}
 }
