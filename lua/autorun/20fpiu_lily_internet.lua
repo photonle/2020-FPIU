@@ -16,6 +16,7 @@ EMV.Siren = 23
 EMV.Skin = 0
 EMV.Color = Color(255, 255, 255)
 EMV.BodyGroups = {{1, 0}, {2, 0}, {3, 1}, {4, 0}, {5, 0}, {6, 0}, {7, 0}, {8, 0}, {9, 0}, {10, 0}, {11, 0}} -- Push Bar -- Grille Lights -- Mirror Lights -- Visor Lights -- Lightbar -- Left Spot -- Right Spot -- Headlight Flashes -- Spoiler Lights -- Trunk Lights -- Rear Window lights
+EMV.Configuration = true
 
 EMV.Auto = {
 	-- R/B
