@@ -1244,215 +1244,230 @@ EMV.Selections = {
 				Auto = {},
 				Bodygroups = {{2, 1}}
 			},
+		}
+	},
+	{
+		Name = "Pushbar",
+		Options = {
 			-- R/B
 			{
 				Category = "Red/Blue",
 				Name = "Top",
 				Auto = {9},
-				Props = {}
+				Bodygroups = {{1, 0}}
 			},
 			{
 				Category = "Red/Blue",
 				Name = "Side",
 				Auto = {8},
-				Props = {}
+				Bodygroups = {{1, 0}}
 			},
 			{
 				Category = "Red/Blue",
 				Name = "Both",
 				Auto = {8, 9},
-				Props = {}
+				Bodygroups = {{1, 0}}
 			},
 			-- B/B
 			{
-				Category = "Blue/Blue",
+				Category = "Blue",
 				Name = "Top",
 				Auto = {22},
-				Props = {}
+				Bodygroups = {{1, 0}}
 			},
 			{
-				Category = "Blue/Blue",
+				Category = "Blue",
 				Name = "Side",
 				Auto = {23},
-				Props = {}
+				Bodygroups = {{1, 0}}
 			},
 			{
-				Category = "Blue/Blue",
+				Category = "Blue",
 				Name = "Both",
 				Auto = {22, 23},
-				Props = {}
+				Bodygroups = {{1, 0}}
 			},
 			-- R/R
 			{
-				Category = "Red/Red",
+				Category = "Red",
 				Name = "Top",
 				Auto = {36},
-				Props = {}
+				Bodygroups = {{1, 0}}
 			},
 			{
-				Category = "Red/Red",
+				Category = "Red",
 				Name = "Side",
 				Auto = {37},
-				Props = {}
+				Bodygroups = {{1, 0}}
 			},
 			{
-				Category = "Red/Red",
+				Category = "Red",
 				Name = "Both",
 				Auto = {36, 37},
-				Props = {}
+				Bodygroups = {{1, 0}}
 			},
 			-- A/A
 			{
-				Category = "Amber/Amber",
+				Category = "Amber",
 				Name = "Top",
 				Auto = {50},
-				Props = {}
+				Bodygroups = {{1, 0}}
 			},
 			{
-				Category = "Amber/Amber",
+				Category = "Amber",
 				Name = "Side",
 				Auto = {51},
-				Props = {}
+				Bodygroups = {{1, 0}}
 			},
 			{
-				Category = "Amber/Amber",
+				Category = "Amber",
 				Name = "Both",
 				Auto = {50, 51},
-				Props = {}
+				Bodygroups = {{1, 0}}
 			},
 			-- A/W
 			{
 				Category = "Amber/White",
 				Name = "Top",
 				Auto = {64},
-				Props = {}
+				Bodygroups = {{1, 0}}
 			},
 			{
 				Category = "Amber/White",
 				Name = "Side",
 				Auto = {65},
-				Props = {}
+				Bodygroups = {{1, 0}}
 			},
 			{
 				Category = "Amber/White",
 				Name = "Both",
 				Auto = {64, 65},
-				Props = {}
+				Bodygroups = {{1, 0}}
 			},
 			-- G/G
 			{
-				Category = "Green/Green",
+				Category = "Green",
 				Name = "Top",
 				Auto = {78},
-				Props = {}
+				Bodygroups = {{1, 0}}
 			},
 			{
-				Category = "Green/Green",
+				Category = "Green",
 				Name = "Side",
 				Auto = {79},
-				Props = {}
+				Bodygroups = {{1, 0}}
 			},
 			{
-				Category = "Green/Green",
+				Category = "Green",
 				Name = "Both",
 				Auto = {78, 79},
-				Props = {}
-			}
-		}
-	},
-	{
-		Name = "Headlight Side Warning Lights",
-		Options = {
+				Bodygroups = {{1, 0}}
+			},
+			-- Disabled
+			{
+				Name = "Disabled",
+				Auto = {},
+				Bodygroups = {{1, 0}}
+			},
 			{
 				Name = "None",
 				Auto = {},
-				Props = {}
+				Bodygroups = {{1, 1}}
 			},
+		}
+	},
+	{
+		Name = "Headlight Side Flashers",
+		Options = {
 			-- W/W
 			{
-				Category = "White",
 				Name = "White",
 				Auto = {10},
-				Props = {}
+				Bodygroups = {{8, 0}}
 			},
 			-- R/B
 			{
 				Category = "Red/Blue",
-				Name = "R/B",
+				Name = "Red/Blue",
 				Auto = {11},
-				Props = {}
+				Bodygroups = {{8, 0}}
 			},
 			{
 				Category = "Red/Blue",
-				Name = "W/R/B",
+				Name = "Red/Blue/White",
 				Auto = {11, 10},
-				Props = {}
+				Bodygroups = {{8, 0}}
 			},
 			-- B/B
 			{
-				Category = "Blue/Blue",
-				Name = "B/B",
+				Category = "Blue",
+				Name = "Solid",
 				Auto = {24},
-				Props = {}
+				Bodygroups = {{8, 0}}
 			},
 			{
-				Category = "Blue/Blue",
-				Name = "W/B/B",
+				Category = "Blue",
+				Name = "Blue/White",
 				Auto = {24, 28},
-				Props = {}
+				Bodygroups = {{8, 0}}
 			},
 			-- R/R
 			{
-				Category = "Red/Red",
-				Name = "R/R",
+				Category = "Red",
+				Name = "Solid",
 				Auto = {38},
-				Props = {}
+				Bodygroups = {{8, 0}}
 			},
 			{
-				Category = "Red/Red",
-				Name = "W/R/R",
+				Category = "Red",
+				Name = "Red/White",
 				Auto = {38, 42},
-				Props = {}
+				Bodygroups = {{8, 0}}
 			},
 			-- A/A
 			{
-				Category = "Amber/Amber",
-				Name = "A/A",
+				Category = "Amber",
+				Name = "Solid",
 				Auto = {52},
-				Props = {}
+				Bodygroups = {{8, 0}}
 			},
 			{
-				Category = "Amber/Amber",
-				Name = "W/A/A",
+				Category = "Amber",
+				Name = "Amber/White",
 				Auto = {52, 56},
-				Props = {}
+				Bodygroups = {{8, 0}}
 			},
 			-- A/W
 			{
 				Category = "Amber/White",
-				Name = "A/W",
+				Name = "Amber/White",
 				Auto = {66},
-				Props = {}
+				Bodygroups = {{8, 0}}
 			},
 			{
 				Category = "Amber/White",
-				Name = "W/A/W",
+				Name = "Amber/Dual White",
 				Auto = {66, 70},
-				Props = {}
+				Bodygroups = {{8, 0}}
 			},
 			-- G/G
 			{
-				Category = "Green/Green",
-				Name = "G/G",
+				Category = "Green",
+				Name = "Solid",
 				Auto = {80},
-				Props = {}
+				Bodygroups = {{8, 0}}
 			},
 			{
-				Category = "Green/Green",
-				Name = "W/G/G",
+				Category = "Green",
+				Name = "Green/White",
 				Auto = {80, 84},
-				Props = {}
-			}
+				Bodygroups = {{8, 0}}
+			},
+			{
+				Name = "None",
+				Auto = {},
+				Bodygroups = {{8, 1}}
+			},
 		}
 	},
 	{
