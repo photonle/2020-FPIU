@@ -1124,45 +1124,45 @@ EMV.Selections = {
 				Auto = {},
 				Bodygroups = {{12, 1}}
 			},
+		}
+	},
+	{
+		Name = "Trunk Lights",
+		Options = {
 			{
 				Name = "Red/Blue",
 				Auto = {5},
-				Props = {}
+				Bodygroups = {{11, 0}}
 			},
 			{
-				Name = "Blue/Blue",
+				Name = "Blue",
 				Auto = {19},
-				Props = {}
+				Bodygroups = {{11, 0}}
 			},
 			{
-				Name = "Red/Red",
+				Name = "Red",
 				Auto = {33},
-				Props = {}
+				Bodygroups = {{11, 0}}
 			},
 			{
-				Name = "Amber/Amber",
+				Name = "Amber",
 				Auto = {47},
-				Props = {}
+				Bodygroups = {{11, 0}}
 			},
 			{
 				Name = "Amber/White",
 				Auto = {61},
-				Props = {}
+				Bodygroups = {{11, 0}}
 			},
 			{
-				Name = "Green/Green",
+				Name = "Green",
 				Auto = {75},
-				Props = {}
-			}
-		}
-	},
-	{
-		Name = "Mirror Lights",
-		Options = {
+				Bodygroups = {{11, 0}}
+			},
 			{
 				Name = "None",
 				Auto = {},
-				Props = {}
+				Bodygroups = {{11, 1}}
 			},
 			{
 				Name = "Red/Blue",
