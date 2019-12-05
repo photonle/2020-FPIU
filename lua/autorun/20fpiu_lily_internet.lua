@@ -33,1024 +33,851 @@ EMV.BodyGroups = {
 
 EMV.Auto = {
 	-- R/B
-[1] =	{
+	[1] = {
 		ID = "Lilys 2020 FPIU Lightbar",
 		Scale = 1.25,
-		Pos = Vector( 0, 0, 87.5 ),
-		Ang = Angle( 0, 0, 0 ),
+		Pos = Vector(0, 0, 87.5),
+		Ang = Angle(0, 0, 0),
 		Color1 = "RED",
 		Color2 = "BLUE",
 		Skin = 0,
-		Bodygroups = {
-			{ 1, 2 }
-			},
-		},
-[2] =	{
-	ID = "Lilys 2020 FPIU Interior Lightbar",
-	Scale = 1.25,
-	Pos = Vector( 27, 27.5, 78.2 ),
-	Ang = Angle( 0, 0, 0 ),
-	Color1 = "RED",
-	Color2 = "BLUE",
-	Skin = 0,
-	Bodygroups = {
-		{ 1, 2 }
-		},
+		Bodygroups = {{1, 2}}
 	},
-[3] =	{
+	[2] = {
+		ID = "Lilys 2020 FPIU Interior Lightbar",
+		Scale = 1.25,
+		Pos = Vector(27, 27.5, 78.2),
+		Ang = Angle(0, 0, 0),
+		Color1 = "RED",
+		Color2 = "BLUE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[3] = {
 		ID = "Lilys 2020 FPIU Exterior Lightbar",
 		Scale = 1.25,
-		Pos = Vector( -0, -102.5, 79.35 ),
-		Ang = Angle( 0, 180, 0 ),
+		Pos = Vector(-0, -102.5, 79.35),
+		Ang = Angle(0, 180, 0),
 		Color1 = "RED",
 		Color2 = "BLUE",
 		Skin = 0,
-		Bodygroups = {
-			{ 1, 2 }
-		},
+		Bodygroups = {{1, 2}}
 	},
-[4] =	{
+	[4] = {
 		ID = "Lilys 2020 FPIU Rear Interior Lightbar",
 		Scale = 1.25,
-		Pos = Vector( -0, -102.5, 79.35 ),
-		Ang = Angle( 0, 180, 0 ),
+		Pos = Vector(-0, -102.5, 79.35),
+		Ang = Angle(0, 180, 0),
 		Color1 = "RED",
 		Color2 = "BLUE",
 		Skin = 0,
-		Bodygroups = {
-			{ 1, 2 }
-		},
+		Bodygroups = {{1, 2}}
 	},
-[5] =	{
+	[5] = {
 		ID = "Lilys 2020 FPIU Rear Trunk Lightbar",
 		Scale = 1.25,
-		Pos = Vector( -0, -102.5, 0.35 ),
-		Ang = Angle( 0, 180, 0 ),
+		Pos = Vector(-0, -102.5, 0.35),
+		Ang = Angle(0, 180, 0),
 		Color1 = "RED",
 		Color2 = "BLUE",
 		Skin = 0,
-		Bodygroups = {
-			{ 1, 2 }
-		},
+		Bodygroups = {{1, 2}}
 	},
-[6] =	{
+	[6] = {
 		ID = "Lilys 2020 FPIU Mirror",
 		Scale = 1.25,
-		Pos = Vector( -0, 52.5, 5.35 ),
-		Ang = Angle( 0, 0, 0 ),
+		Pos = Vector(-0, 52.5, 5.35),
+		Ang = Angle(0, 0, 0),
 		Color1 = "RED",
 		Color2 = "BLUE",
 		Skin = 0,
-		Bodygroups = {
-			{ 1, 2 }
-		},
+		Bodygroups = {{1, 2}}
 	},
-[7] =	{
+	[7] = {
 		ID = "Lilys 2020 FPIU Grill",
 		Scale = 1.25,
-		Pos = Vector( -0, 122.5, 5.35 ),
-		Ang = Angle( 0, 0, 0 ),
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
 		Color1 = "RED",
 		Color2 = "BLUE",
 		Skin = 0,
-		Bodygroups = {
-			{ 1, 2 }
-		},
+		Bodygroups = {{1, 2}}
 	},
-[8] =	{
+	[8] = {
 		ID = "Lilys 2020 FPIU Rambar Top",
 		Scale = 1.25,
-		Pos = Vector( -0, 127.5, 15.35 ),
-		Ang = Angle( 0, 0, 0 ),
+		Pos = Vector(-0, 127.5, 15.35),
+		Ang = Angle(0, 0, 0),
 		Color1 = "RED",
 		Color2 = "BLUE",
 		Skin = 0,
-		Bodygroups = {
-			{ 1, 2 }
-		},
+		Bodygroups = {{1, 2}}
 	},
-[9]	= {
+	[9] = {
 		ID = "Lilys 2020 FPIU Rambar Side",
 		Scale = 1.25,
-		Pos = Vector( -0, 127.5, 15.35 ),
-		Ang = Angle( 0, 0, 0 ),
+		Pos = Vector(-0, 127.5, 15.35),
+		Ang = Angle(0, 0, 0),
 		Color1 = "RED",
 		Color2 = "BLUE",
 		Skin = 0,
-		Bodygroups = {
-			{ 1, 2 }
-		},
+		Bodygroups = {{1, 2}}
 	},
-[10] =	{
+	[10] = {
 		ID = "Lilys 2020 FPIU Headlight Flashers White",
 		Scale = 1.25,
-		Pos = Vector( -0, 122.5, 5.35 ),
-		Ang = Angle( 0, 0, 0 ),
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
 		Color1 = "C_WHITE",
 		Color2 = "C_WHITE",
 		Skin = 0,
-		Bodygroups = {
-			{ 1, 2 }
-		},
+		Bodygroups = {{1, 2}}
 	},
-[11]  =	{
+	[11] = {
 		ID = "Lilys 2020 FPIU Headlight Flashers RB",
 		Scale = 1.25,
-		Pos = Vector( -0, 122.5, 5.35 ),
-		Ang = Angle( 0, 0, 0 ),
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
 		Color1 = "RED",
 		Color2 = "BLUE",
 		Skin = 0,
-		Bodygroups = {
-			{ 1, 2 }
-		},
+		Bodygroups = {{1, 2}}
 	},
-[12] =	{
+	[12] = {
 		ID = "Lilys 2020 FPIU Foglights",
 		Scale = 1.25,
-		Pos = Vector( -0, 122.5, 5.35 ),
-		Ang = Angle( 0, 0, 0 ),
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
 		Color1 = "RED",
 		Color2 = "BLUE",
 		Skin = 0,
-		Bodygroups = {
-			{ 1, 2 }
-		},
+		Bodygroups = {{1, 2}}
 	},
-[13] =	{
+	[13] = {
 		ID = "Lilys 2020 FPIU Interior Lightbar Stock",
 		Scale = 1.25,
-		Pos = Vector( 27, 27.5, 78.2 ),
-		Ang = Angle( 0, 0, 0 ),
+		Pos = Vector(27, 27.5, 78.2),
+		Ang = Angle(0, 0, 0),
 		Color1 = "RED",
 		Color2 = "BLUE",
 		Skin = 0,
-		Bodygroups = {
-			{ 1, 2 }
-			},
-		},
-[14] =	{
-			ID = "Lilys 2020 FPIU Exterior Lightbar Stock",
-			Scale = 1.25,
-			Pos = Vector( -0, -102.5, 79.35 ),
-			Ang = Angle( 0, 180, 0 ),
-			Color1 = "RED",
-			Color2 = "BLUE",
-			Skin = 0,
-			Bodygroups = {
-				{ 1, 2 }
-			},
-		},
-		-- B/B Section
-		[15] =	{
-			ID = "Lilys 2020 FPIU Lightbar",
-			Scale = 1.25,
-			Pos = Vector( 0, 0, 87.5 ),
-			Ang = Angle( 0, 0, 0 ),
-			Color1 = "BLUE",
-			Color2 = "BLUE",
-			Skin = 0,
-			Bodygroups = {
-				{ 1, 2 }
-				},
-			},
-	[16] =	{
-		ID = "Lilys 2020 FPIU Interior Lightbar",
+		Bodygroups = {{1, 2}}
+	},
+	[14] = {
+		ID = "Lilys 2020 FPIU Exterior Lightbar Stock",
 		Scale = 1.25,
-		Pos = Vector( 27, 27.5, 78.2 ),
-		Ang = Angle( 0, 0, 0 ),
+		Pos = Vector(-0, -102.5, 79.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "RED",
+		Color2 = "BLUE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	-- B/B Section
+	[15] = {
+		ID = "Lilys 2020 FPIU Lightbar",
+		Scale = 1.25,
+		Pos = Vector(0, 0, 87.5),
+		Ang = Angle(0, 0, 0),
 		Color1 = "BLUE",
 		Color2 = "BLUE",
 		Skin = 0,
-		Bodygroups = {
-			{ 1, 2 }
-			},
-		},
-	[17] =	{
-			ID = "Lilys 2020 FPIU Exterior Lightbar",
-			Scale = 1.25,
-			Pos = Vector( -0, -102.5, 79.35 ),
-			Ang = Angle( 0, 180, 0 ),
-			Color1 = "BLUE",
-			Color2 = "BLUE",
-			Skin = 0,
-			Bodygroups = {
-				{ 1, 2 }
-			},
-		},
-	[18] =	{
-			ID = "Lilys 2020 FPIU Rear Interior Lightbar",
-			Scale = 1.25,
-			Pos = Vector( -0, -102.5, 79.35 ),
-			Ang = Angle( 0, 180, 0 ),
-			Color1 = "BLUE",
-			Color2 = "BLUE",
-			Skin = 0,
-			Bodygroups = {
-				{ 1, 2 }
-			},
-		},
-	[19] =	{
-			ID = "Lilys 2020 FPIU Rear Trunk Lightbar",
-			Scale = 1.25,
-			Pos = Vector( -0, -102.5, 0.35 ),
-			Ang = Angle( 0, 180, 0 ),
-			Color1 = "BLUE",
-			Color2 = "BLUE",
-			Skin = 0,
-			Bodygroups = {
-				{ 1, 2 }
-			},
-		},
-	[20] =	{
-			ID = "Lilys 2020 FPIU Mirror",
-			Scale = 1.25,
-			Pos = Vector( -0, 52.5, 5.35 ),
-			Ang = Angle( 0, 0, 0 ),
-			Color1 = "BLUE",
-			Color2 = "BLUE",
-			Skin = 0,
-			Bodygroups = {
-				{ 1, 2 }
-			},
-		},
-	[21] =	{
-			ID = "Lilys 2020 FPIU Grill",
-			Scale = 1.25,
-			Pos = Vector( -0, 122.5, 5.35 ),
-			Ang = Angle( 0, 0, 0 ),
-			Color1 = "BLUE",
-			Color2 = "BLUE",
-			Skin = 0,
-			Bodygroups = {
-				{ 1, 2 }
-			},
-		},
-	[22] =	{
-			ID = "Lilys 2020 FPIU Rambar Top",
-			Scale = 1.25,
-			Pos = Vector( -0, 127.5, 15.35 ),
-			Ang = Angle( 0, 0, 0 ),
-			Color1 = "BLUE",
-			Color2 = "BLUE",
-			Skin = 0,
-			Bodygroups = {
-				{ 1, 2 }
-			},
-		},
-	[23]	= {
-			ID = "Lilys 2020 FPIU Rambar Side",
-			Scale = 1.25,
-			Pos = Vector( -0, 127.5, 15.35 ),
-			Ang = Angle( 0, 0, 0 ),
-			Color1 = "BLUE",
-			Color2 = "BLUE",
-			Skin = 0,
-			Bodygroups = {
-				{ 1, 2 }
-			},
-		},
-	[24]  =	{
-			ID = "Lilys 2020 FPIU Headlight Flashers RB",
-			Scale = 1.25,
-			Pos = Vector( -0, 122.5, 5.35 ),
-			Ang = Angle( 0, 0, 0 ),
-			Color1 = "BLUE",
-			Color2 = "BLUE",
-			Skin = 0,
-			Bodygroups = {
-				{ 1, 2 }
-			},
-		},
-	[25] =	{
-			ID = "Lilys 2020 FPIU Foglights",
-			Scale = 1.25,
-			Pos = Vector( -0, 122.5, 5.35 ),
-			Ang = Angle( 0, 0, 0 ),
-			Color1 = "BLUE",
-			Color2 = "BLUE",
-			Skin = 0,
-			Bodygroups = {
-				{ 1, 2 }
-			},
-		},
-	[26] =	{
-			ID = "Lilys 2020 FPIU Interior Lightbar Stock",
-			Scale = 1.25,
-			Pos = Vector( 27, 27.5, 78.2 ),
-			Ang = Angle( 0, 0, 0 ),
-			Color1 = "BLUE",
-			Color2 = "BLUE",
-			Skin = 0,
-			Bodygroups = {
-				{ 1, 2 }
-				},
-			},
-	[27] =	{
-				ID = "Lilys 2020 FPIU Exterior Lightbar Stock",
-				Scale = 1.25,
-				Pos = Vector( -0, -102.5, 79.35 ),
-				Ang = Angle( 0, 180, 0 ),
-				Color1 = "BLUE",
-				Color2 = "BLUE",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-			[28] =	{
-				ID = "Lilys 2020 FPIU Headlight Flashers White",
-				Scale = 1.25,
-				Pos = Vector( -0, 122.5, 5.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "C_WHITE",
-				Color2 = "C_WHITE",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-			-- R/R
-
-			[29] =	{
-				ID = "Lilys 2020 FPIU Lightbar",
-				Scale = 1.25,
-				Pos = Vector( 0, 0, 87.5 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "RED",
-				Color2 = "RED",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-					},
-				},
-		[30] =	{
-			ID = "Lilys 2020 FPIU Interior Lightbar",
-			Scale = 1.25,
-			Pos = Vector( 27, 27.5, 78.2 ),
-			Ang = Angle( 0, 0, 0 ),
-			Color1 = "RED",
-			Color2 = "RED",
-			Skin = 0,
-			Bodygroups = {
-				{ 1, 2 }
-				},
-			},
-		[31] =	{
-				ID = "Lilys 2020 FPIU Exterior Lightbar",
-				Scale = 1.25,
-				Pos = Vector( -0, -102.5, 79.35 ),
-				Ang = Angle( 0, 180, 0 ),
-				Color1 = "RED",
-				Color2 = "RED",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[32] =	{
-				ID = "Lilys 2020 FPIU Rear Interior Lightbar",
-				Scale = 1.25,
-				Pos = Vector( -0, -102.5, 79.35 ),
-				Ang = Angle( 0, 180, 0 ),
-				Color1 = "RED",
-				Color2 = "RED",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[33] =	{
-				ID = "Lilys 2020 FPIU Rear Trunk Lightbar",
-				Scale = 1.25,
-				Pos = Vector( -0, -102.5, 0.35 ),
-				Ang = Angle( 0, 180, 0 ),
-				Color1 = "RED",
-				Color2 = "RED",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[34] =	{
-				ID = "Lilys 2020 FPIU Mirror",
-				Scale = 1.25,
-				Pos = Vector( -0, 52.5, 5.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "RED",
-				Color2 = "RED",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[35] =	{
-				ID = "Lilys 2020 FPIU Grill",
-				Scale = 1.25,
-				Pos = Vector( -0, 122.5, 5.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "RED",
-				Color2 = "RED",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[36] =	{
-				ID = "Lilys 2020 FPIU Rambar Top",
-				Scale = 1.25,
-				Pos = Vector( -0, 127.5, 15.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "RED",
-				Color2 = "RED",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[37]	= {
-				ID = "Lilys 2020 FPIU Rambar Side",
-				Scale = 1.25,
-				Pos = Vector( -0, 127.5, 15.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "RED",
-				Color2 = "RED",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[38]  =	{
-				ID = "Lilys 2020 FPIU Headlight Flashers RB",
-				Scale = 1.25,
-				Pos = Vector( -0, 122.5, 5.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "RED",
-				Color2 = "RED",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[39] =	{
-				ID = "Lilys 2020 FPIU Foglights",
-				Scale = 1.25,
-				Pos = Vector( -0, 122.5, 5.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "RED",
-				Color2 = "RED",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[40] =	{
-				ID = "Lilys 2020 FPIU Interior Lightbar Stock",
-				Scale = 1.25,
-				Pos = Vector( 27, 27.5, 78.2 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "RED",
-				Color2 = "RED",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-					},
-				},
-		[41] =	{
-					ID = "Lilys 2020 FPIU Exterior Lightbar Stock",
-					Scale = 1.25,
-					Pos = Vector( -0, -102.5, 79.35 ),
-					Ang = Angle( 0, 180, 0 ),
-					Color1 = "RED",
-					Color2 = "RED",
-					Skin = 0,
-					Bodygroups = {
-						{ 1, 2 }
-					},
-				},
-				[42] =	{
-					ID = "Lilys 2020 FPIU Headlight Flashers White",
-					Scale = 1.25,
-					Pos = Vector( -0, 122.5, 5.35 ),
-					Ang = Angle( 0, 0, 0 ),
-					Color1 = "C_WHITE",
-					Color2 = "C_WHITE",
-					Skin = 0,
-					Bodygroups = {
-						{ 1, 2 }
-					},
-				},
-				-- A/A
-
-			[43] =	{
-				ID = "Lilys 2020 FPIU Lightbar",
-				Scale = 1.25,
-				Pos = Vector( 0, 0, 87.5 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "AMBER",
-				Color2 = "AMBER",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-					},
-				},
-		[44] =	{
-			ID = "Lilys 2020 FPIU Interior Lightbar",
-			Scale = 1.25,
-			Pos = Vector( 27, 27.5, 78.2 ),
-			Ang = Angle( 0, 0, 0 ),
-			Color1 = "AMBER",
-			Color2 = "AMBER",
-			Skin = 0,
-			Bodygroups = {
-				{ 1, 2 }
-				},
-			},
-		[45] =	{
-				ID = "Lilys 2020 FPIU Exterior Lightbar",
-				Scale = 1.25,
-				Pos = Vector( -0, -102.5, 79.35 ),
-				Ang = Angle( 0, 180, 0 ),
-				Color1 = "AMBER",
-				Color2 = "AMBER",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[46] =	{
-				ID = "Lilys 2020 FPIU Rear Interior Lightbar",
-				Scale = 1.25,
-				Pos = Vector( -0, -102.5, 79.35 ),
-				Ang = Angle( 0, 180, 0 ),
-				Color1 = "AMBER",
-				Color2 = "AMBER",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[47] =	{
-				ID = "Lilys 2020 FPIU Rear Trunk Lightbar",
-				Scale = 1.25,
-				Pos = Vector( -0, -102.5, 0.35 ),
-				Ang = Angle( 0, 180, 0 ),
-				Color1 = "AMBER",
-				Color2 = "AMBER",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[48] =	{
-				ID = "Lilys 2020 FPIU Mirror",
-				Scale = 1.25,
-				Pos = Vector( -0, 52.5, 5.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "AMBER",
-				Color2 = "AMBER",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[49] =	{
-				ID = "Lilys 2020 FPIU Grill",
-				Scale = 1.25,
-				Pos = Vector( -0, 122.5, 5.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "AMBER",
-				Color2 = "AMBER",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[50] =	{
-				ID = "Lilys 2020 FPIU Rambar Top",
-				Scale = 1.25,
-				Pos = Vector( -0, 127.5, 15.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "AMBER",
-				Color2 = "AMBER",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[51]	= {
-				ID = "Lilys 2020 FPIU Rambar Side",
-				Scale = 1.25,
-				Pos = Vector( -0, 127.5, 15.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "AMBER",
-				Color2 = "AMBER",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[52]  =	{
-				ID = "Lilys 2020 FPIU Headlight Flashers RB",
-				Scale = 1.25,
-				Pos = Vector( -0, 122.5, 5.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "AMBER",
-				Color2 = "AMBER",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[53] =	{
-				ID = "Lilys 2020 FPIU Foglights",
-				Scale = 1.25,
-				Pos = Vector( -0, 122.5, 5.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "AMBER",
-				Color2 = "AMBER",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[54] =	{
-				ID = "Lilys 2020 FPIU Interior Lightbar Stock",
-				Scale = 1.25,
-				Pos = Vector( 27, 27.5, 78.2 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "AMBER",
-				Color2 = "AMBER",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-					},
-				},
-		[55] =	{
-					ID = "Lilys 2020 FPIU Exterior Lightbar Stock",
-					Scale = 1.25,
-					Pos = Vector( -0, -102.5, 79.35 ),
-					Ang = Angle( 0, 180, 0 ),
-					Color1 = "AMBER",
-					Color2 = "AMBER",
-					Skin = 0,
-					Bodygroups = {
-						{ 1, 2 }
-					},
-				},
-				[56] =	{
-					ID = "Lilys 2020 FPIU Headlight Flashers White",
-					Scale = 1.25,
-					Pos = Vector( -0, 122.5, 5.35 ),
-					Ang = Angle( 0, 0, 0 ),
-					Color1 = "C_WHITE",
-					Color2 = "C_WHITE",
-					Skin = 0,
-					Bodygroups = {
-						{ 1, 2 }
-					},
-				},
-			-- 	A/W
-
-			[57] =	{
-				ID = "Lilys 2020 FPIU Lightbar",
-				Scale = 1.25,
-				Pos = Vector( 0, 0, 87.5 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "AMBER",
-				Color2 = "C_WHITE",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-					},
-				},
-		[58] =	{
-			ID = "Lilys 2020 FPIU Interior Lightbar",
-			Scale = 1.25,
-			Pos = Vector( 27, 27.5, 78.2 ),
-			Ang = Angle( 0, 0, 0 ),
-			Color1 = "AMBER",
-			Color2 = "C_WHITE",
-			Skin = 0,
-			Bodygroups = {
-				{ 1, 2 }
-				},
-			},
-		[59] =	{
-				ID = "Lilys 2020 FPIU Exterior Lightbar",
-				Scale = 1.25,
-				Pos = Vector( -0, -102.5, 79.35 ),
-				Ang = Angle( 0, 180, 0 ),
-				Color1 = "AMBER",
-				Color2 = "C_WHITE",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[60] =	{
-				ID = "Lilys 2020 FPIU Rear Interior Lightbar",
-				Scale = 1.25,
-				Pos = Vector( -0, -102.5, 79.35 ),
-				Ang = Angle( 0, 180, 0 ),
-				Color1 = "AMBER",
-				Color2 = "C_WHITE",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[61] =	{
-				ID = "Lilys 2020 FPIU Rear Trunk Lightbar",
-				Scale = 1.25,
-				Pos = Vector( -0, -102.5, 0.35 ),
-				Ang = Angle( 0, 180, 0 ),
-				Color1 = "AMBER",
-				Color2 = "C_WHITE",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[62] =	{
-				ID = "Lilys 2020 FPIU Mirror",
-				Scale = 1.25,
-				Pos = Vector( -0, 52.5, 5.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "AMBER",
-				Color2 = "C_WHITE",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[63] =	{
-				ID = "Lilys 2020 FPIU Grill",
-				Scale = 1.25,
-				Pos = Vector( -0, 122.5, 5.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "AMBER",
-				Color2 = "C_WHITE",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[64] =	{
-				ID = "Lilys 2020 FPIU Rambar Top",
-				Scale = 1.25,
-				Pos = Vector( -0, 127.5, 15.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "AMBER",
-				Color2 = "C_WHITE",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[65]	= {
-				ID = "Lilys 2020 FPIU Rambar Side",
-				Scale = 1.25,
-				Pos = Vector( -0, 127.5, 15.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "AMBER",
-				Color2 = "C_WHITE",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[66]  =	{
-				ID = "Lilys 2020 FPIU Headlight Flashers RB",
-				Scale = 1.25,
-				Pos = Vector( -0, 122.5, 5.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "AMBER",
-				Color2 = "C_WHITE",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[67] =	{
-				ID = "Lilys 2020 FPIU Foglights",
-				Scale = 1.25,
-				Pos = Vector( -0, 122.5, 5.35 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "AMBER",
-				Color2 = "C_WHITE",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-				},
-			},
-		[68] =	{
-				ID = "Lilys 2020 FPIU Interior Lightbar Stock",
-				Scale = 1.25,
-				Pos = Vector( 27, 27.5, 78.2 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "AMBER",
-				Color2 = "C_WHITE",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-					},
-				},
-		[69] =	{
-					ID = "Lilys 2020 FPIU Exterior Lightbar Stock",
-					Scale = 1.25,
-					Pos = Vector( -0, -102.5, 79.35 ),
-					Ang = Angle( 0, 180, 0 ),
-					Color1 = "AMBER",
-					Color2 = "C_WHITE",
-					Skin = 0,
-					Bodygroups = {
-						{ 1, 2 }
-					},
-				},
-				[70] =	{
-					ID = "Lilys 2020 FPIU Headlight Flashers White",
-					Scale = 1.25,
-					Pos = Vector( -0, 122.5, 5.35 ),
-					Ang = Angle( 0, 0, 0 ),
-					Color1 = "C_WHITE",
-					Color2 = "C_WHITE",
-					Skin = 0,
-					Bodygroups = {
-						{ 1, 2 }
-					},
-				},
-				-- G/G
-
-				[71] =	{
-					ID = "Lilys 2020 FPIU Lightbar",
-					Scale = 1.25,
-					Pos = Vector( 0, 0, 87.5 ),
-					Ang = Angle( 0, 0, 0 ),
-					Color1 = "GREEN",
-					Color2 = "GREEN",
-					Skin = 0,
-					Bodygroups = {
-						{ 1, 2 }
-						},
-					},
-			[72] =	{
-				ID = "Lilys 2020 FPIU Interior Lightbar",
-				Scale = 1.25,
-				Pos = Vector( 27, 27.5, 78.2 ),
-				Ang = Angle( 0, 0, 0 ),
-				Color1 = "GREEN",
-				Color2 = "GREEN",
-				Skin = 0,
-				Bodygroups = {
-					{ 1, 2 }
-					},
-				},
-			[73] =	{
-					ID = "Lilys 2020 FPIU Exterior Lightbar",
-					Scale = 1.25,
-					Pos = Vector( -0, -102.5, 79.35 ),
-					Ang = Angle( 0, 180, 0 ),
-					Color1 = "GREEN",
-					Color2 = "GREEN",
-					Skin = 0,
-					Bodygroups = {
-						{ 1, 2 }
-					},
-				},
-			[74] =	{
-					ID = "Lilys 2020 FPIU Rear Interior Lightbar",
-					Scale = 1.25,
-					Pos = Vector( -0, -102.5, 79.35 ),
-					Ang = Angle( 0, 180, 0 ),
-					Color1 = "GREEN",
-					Color2 = "GREEN",
-					Skin = 0,
-					Bodygroups = {
-						{ 1, 2 }
-					},
-				},
-			[75] =	{
-					ID = "Lilys 2020 FPIU Rear Trunk Lightbar",
-					Scale = 1.25,
-					Pos = Vector( -0, -102.5, 0.35 ),
-					Ang = Angle( 0, 180, 0 ),
-					Color1 = "GREEN",
-					Color2 = "GREEN",
-					Skin = 0,
-					Bodygroups = {
-						{ 1, 2 }
-					},
-				},
-			[76] =	{
-					ID = "Lilys 2020 FPIU Mirror",
-					Scale = 1.25,
-					Pos = Vector( -0, 52.5, 5.35 ),
-					Ang = Angle( 0, 0, 0 ),
-					Color1 = "GREEN",
-					Color2 = "GREEN",
-					Skin = 0,
-					Bodygroups = {
-						{ 1, 2 }
-					},
-				},
-			[77] =	{
-					ID = "Lilys 2020 FPIU Grill",
-					Scale = 1.25,
-					Pos = Vector( -0, 122.5, 5.35 ),
-					Ang = Angle( 0, 0, 0 ),
-					Color1 = "GREEN",
-					Color2 = "GREEN",
-					Skin = 0,
-					Bodygroups = {
-						{ 1, 2 }
-					},
-				},
-			[78] =	{
-					ID = "Lilys 2020 FPIU Rambar Top",
-					Scale = 1.25,
-					Pos = Vector( -0, 127.5, 15.35 ),
-					Ang = Angle( 0, 0, 0 ),
-					Color1 = "GREEN",
-					Color2 = "GREEN",
-					Skin = 0,
-					Bodygroups = {
-						{ 1, 2 }
-					},
-				},
-			[79]	= {
-					ID = "Lilys 2020 FPIU Rambar Side",
-					Scale = 1.25,
-					Pos = Vector( -0, 127.5, 15.35 ),
-					Ang = Angle( 0, 0, 0 ),
-					Color1 = "GREEN",
-					Color2 = "GREEN",
-					Skin = 0,
-					Bodygroups = {
-						{ 1, 2 }
-					},
-				},
-			[80]  =	{
-					ID = "Lilys 2020 FPIU Headlight Flashers RB",
-					Scale = 1.25,
-					Pos = Vector( -0, 122.5, 5.35 ),
-					Ang = Angle( 0, 0, 0 ),
-					Color1 = "GREEN",
-					Color2 = "GREEN",
-					Skin = 0,
-					Bodygroups = {
-						{ 1, 2 }
-					},
-				},
-			[81] =	{
-					ID = "Lilys 2020 FPIU Foglights",
-					Scale = 1.25,
-					Pos = Vector( -0, 122.5, 5.35 ),
-					Ang = Angle( 0, 0, 0 ),
-					Color1 = "GREEN",
-					Color2 = "GREEN",
-					Skin = 0,
-					Bodygroups = {
-						{ 1, 2 }
-					},
-				},
-			[82] =	{
-					ID = "Lilys 2020 FPIU Interior Lightbar Stock",
-					Scale = 1.25,
-					Pos = Vector( 27, 27.5, 78.2 ),
-					Ang = Angle( 0, 0, 0 ),
-					Color1 = "GREEN",
-					Color2 = "GREEN",
-					Skin = 0,
-					Bodygroups = {
-						{ 1, 2 }
-						},
-					},
-			[83] =	{
-						ID = "Lilys 2020 FPIU Exterior Lightbar Stock",
-						Scale = 1.25,
-						Pos = Vector( -0, -102.5, 79.35 ),
-						Ang = Angle( 0, 180, 0 ),
-						Color1 = "GREEN",
-						Color2 = "GREEN",
-						Skin = 0,
-						Bodygroups = {
-							{ 1, 2 }
-						},
-					},
-					[84] =	{
-						ID = "Lilys 2020 FPIU Headlight Flashers White",
-						Scale = 1.25,
-						Pos = Vector( -0, 122.5, 5.35 ),
-						Ang = Angle( 0, 0, 0 ),
-						Color1 = "C_WHITE",
-						Color2 = "C_WHITE",
-						Skin = 0,
-						Bodygroups = {
-							{ 1, 2 }
-						},
-					},
-
+		Bodygroups = {{1, 2}}
+	},
+	[16] = {
+		ID = "Lilys 2020 FPIU Interior Lightbar",
+		Scale = 1.25,
+		Pos = Vector(27, 27.5, 78.2),
+		Ang = Angle(0, 0, 0),
+		Color1 = "BLUE",
+		Color2 = "BLUE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[17] = {
+		ID = "Lilys 2020 FPIU Exterior Lightbar",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 79.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "BLUE",
+		Color2 = "BLUE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[18] = {
+		ID = "Lilys 2020 FPIU Rear Interior Lightbar",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 79.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "BLUE",
+		Color2 = "BLUE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[19] = {
+		ID = "Lilys 2020 FPIU Rear Trunk Lightbar",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 0.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "BLUE",
+		Color2 = "BLUE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[20] = {
+		ID = "Lilys 2020 FPIU Mirror",
+		Scale = 1.25,
+		Pos = Vector(-0, 52.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "BLUE",
+		Color2 = "BLUE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[21] = {
+		ID = "Lilys 2020 FPIU Grill",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "BLUE",
+		Color2 = "BLUE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[22] = {
+		ID = "Lilys 2020 FPIU Rambar Top",
+		Scale = 1.25,
+		Pos = Vector(-0, 127.5, 15.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "BLUE",
+		Color2 = "BLUE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[23] = {
+		ID = "Lilys 2020 FPIU Rambar Side",
+		Scale = 1.25,
+		Pos = Vector(-0, 127.5, 15.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "BLUE",
+		Color2 = "BLUE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[24] = {
+		ID = "Lilys 2020 FPIU Headlight Flashers RB",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "BLUE",
+		Color2 = "BLUE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[25] = {
+		ID = "Lilys 2020 FPIU Foglights",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "BLUE",
+		Color2 = "BLUE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[26] = {
+		ID = "Lilys 2020 FPIU Interior Lightbar Stock",
+		Scale = 1.25,
+		Pos = Vector(27, 27.5, 78.2),
+		Ang = Angle(0, 0, 0),
+		Color1 = "BLUE",
+		Color2 = "BLUE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[27] = {
+		ID = "Lilys 2020 FPIU Exterior Lightbar Stock",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 79.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "BLUE",
+		Color2 = "BLUE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[28] = {
+		ID = "Lilys 2020 FPIU Headlight Flashers White",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "C_WHITE",
+		Color2 = "C_WHITE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	-- R/R
+	[29] = {
+		ID = "Lilys 2020 FPIU Lightbar",
+		Scale = 1.25,
+		Pos = Vector(0, 0, 87.5),
+		Ang = Angle(0, 0, 0),
+		Color1 = "RED",
+		Color2 = "RED",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[30] = {
+		ID = "Lilys 2020 FPIU Interior Lightbar",
+		Scale = 1.25,
+		Pos = Vector(27, 27.5, 78.2),
+		Ang = Angle(0, 0, 0),
+		Color1 = "RED",
+		Color2 = "RED",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[31] = {
+		ID = "Lilys 2020 FPIU Exterior Lightbar",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 79.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "RED",
+		Color2 = "RED",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[32] = {
+		ID = "Lilys 2020 FPIU Rear Interior Lightbar",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 79.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "RED",
+		Color2 = "RED",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[33] = {
+		ID = "Lilys 2020 FPIU Rear Trunk Lightbar",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 0.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "RED",
+		Color2 = "RED",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[34] = {
+		ID = "Lilys 2020 FPIU Mirror",
+		Scale = 1.25,
+		Pos = Vector(-0, 52.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "RED",
+		Color2 = "RED",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[35] = {
+		ID = "Lilys 2020 FPIU Grill",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "RED",
+		Color2 = "RED",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[36] = {
+		ID = "Lilys 2020 FPIU Rambar Top",
+		Scale = 1.25,
+		Pos = Vector(-0, 127.5, 15.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "RED",
+		Color2 = "RED",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[37] = {
+		ID = "Lilys 2020 FPIU Rambar Side",
+		Scale = 1.25,
+		Pos = Vector(-0, 127.5, 15.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "RED",
+		Color2 = "RED",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[38] = {
+		ID = "Lilys 2020 FPIU Headlight Flashers RB",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "RED",
+		Color2 = "RED",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[39] = {
+		ID = "Lilys 2020 FPIU Foglights",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "RED",
+		Color2 = "RED",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[40] = {
+		ID = "Lilys 2020 FPIU Interior Lightbar Stock",
+		Scale = 1.25,
+		Pos = Vector(27, 27.5, 78.2),
+		Ang = Angle(0, 0, 0),
+		Color1 = "RED",
+		Color2 = "RED",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[41] = {
+		ID = "Lilys 2020 FPIU Exterior Lightbar Stock",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 79.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "RED",
+		Color2 = "RED",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[42] = {
+		ID = "Lilys 2020 FPIU Headlight Flashers White",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "C_WHITE",
+		Color2 = "C_WHITE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	-- A/A
+	[43] = {
+		ID = "Lilys 2020 FPIU Lightbar",
+		Scale = 1.25,
+		Pos = Vector(0, 0, 87.5),
+		Ang = Angle(0, 0, 0),
+		Color1 = "AMBER",
+		Color2 = "AMBER",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[44] = {
+		ID = "Lilys 2020 FPIU Interior Lightbar",
+		Scale = 1.25,
+		Pos = Vector(27, 27.5, 78.2),
+		Ang = Angle(0, 0, 0),
+		Color1 = "AMBER",
+		Color2 = "AMBER",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[45] = {
+		ID = "Lilys 2020 FPIU Exterior Lightbar",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 79.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "AMBER",
+		Color2 = "AMBER",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[46] = {
+		ID = "Lilys 2020 FPIU Rear Interior Lightbar",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 79.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "AMBER",
+		Color2 = "AMBER",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[47] = {
+		ID = "Lilys 2020 FPIU Rear Trunk Lightbar",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 0.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "AMBER",
+		Color2 = "AMBER",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[48] = {
+		ID = "Lilys 2020 FPIU Mirror",
+		Scale = 1.25,
+		Pos = Vector(-0, 52.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "AMBER",
+		Color2 = "AMBER",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[49] = {
+		ID = "Lilys 2020 FPIU Grill",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "AMBER",
+		Color2 = "AMBER",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[50] = {
+		ID = "Lilys 2020 FPIU Rambar Top",
+		Scale = 1.25,
+		Pos = Vector(-0, 127.5, 15.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "AMBER",
+		Color2 = "AMBER",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[51] = {
+		ID = "Lilys 2020 FPIU Rambar Side",
+		Scale = 1.25,
+		Pos = Vector(-0, 127.5, 15.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "AMBER",
+		Color2 = "AMBER",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[52] = {
+		ID = "Lilys 2020 FPIU Headlight Flashers RB",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "AMBER",
+		Color2 = "AMBER",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[53] = {
+		ID = "Lilys 2020 FPIU Foglights",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "AMBER",
+		Color2 = "AMBER",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[54] = {
+		ID = "Lilys 2020 FPIU Interior Lightbar Stock",
+		Scale = 1.25,
+		Pos = Vector(27, 27.5, 78.2),
+		Ang = Angle(0, 0, 0),
+		Color1 = "AMBER",
+		Color2 = "AMBER",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[55] = {
+		ID = "Lilys 2020 FPIU Exterior Lightbar Stock",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 79.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "AMBER",
+		Color2 = "AMBER",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[56] = {
+		ID = "Lilys 2020 FPIU Headlight Flashers White",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "C_WHITE",
+		Color2 = "C_WHITE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	-- 	A/W
+	[57] = {
+		ID = "Lilys 2020 FPIU Lightbar",
+		Scale = 1.25,
+		Pos = Vector(0, 0, 87.5),
+		Ang = Angle(0, 0, 0),
+		Color1 = "AMBER",
+		Color2 = "C_WHITE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[58] = {
+		ID = "Lilys 2020 FPIU Interior Lightbar",
+		Scale = 1.25,
+		Pos = Vector(27, 27.5, 78.2),
+		Ang = Angle(0, 0, 0),
+		Color1 = "AMBER",
+		Color2 = "C_WHITE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[59] = {
+		ID = "Lilys 2020 FPIU Exterior Lightbar",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 79.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "AMBER",
+		Color2 = "C_WHITE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[60] = {
+		ID = "Lilys 2020 FPIU Rear Interior Lightbar",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 79.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "AMBER",
+		Color2 = "C_WHITE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[61] = {
+		ID = "Lilys 2020 FPIU Rear Trunk Lightbar",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 0.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "AMBER",
+		Color2 = "C_WHITE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[62] = {
+		ID = "Lilys 2020 FPIU Mirror",
+		Scale = 1.25,
+		Pos = Vector(-0, 52.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "AMBER",
+		Color2 = "C_WHITE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[63] = {
+		ID = "Lilys 2020 FPIU Grill",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "AMBER",
+		Color2 = "C_WHITE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[64] = {
+		ID = "Lilys 2020 FPIU Rambar Top",
+		Scale = 1.25,
+		Pos = Vector(-0, 127.5, 15.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "AMBER",
+		Color2 = "C_WHITE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[65] = {
+		ID = "Lilys 2020 FPIU Rambar Side",
+		Scale = 1.25,
+		Pos = Vector(-0, 127.5, 15.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "AMBER",
+		Color2 = "C_WHITE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[66] = {
+		ID = "Lilys 2020 FPIU Headlight Flashers RB",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "AMBER",
+		Color2 = "C_WHITE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[67] = {
+		ID = "Lilys 2020 FPIU Foglights",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "AMBER",
+		Color2 = "C_WHITE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[68] = {
+		ID = "Lilys 2020 FPIU Interior Lightbar Stock",
+		Scale = 1.25,
+		Pos = Vector(27, 27.5, 78.2),
+		Ang = Angle(0, 0, 0),
+		Color1 = "AMBER",
+		Color2 = "C_WHITE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[69] = {
+		ID = "Lilys 2020 FPIU Exterior Lightbar Stock",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 79.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "AMBER",
+		Color2 = "C_WHITE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[70] = {
+		ID = "Lilys 2020 FPIU Headlight Flashers White",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "C_WHITE",
+		Color2 = "C_WHITE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	-- G/G
+	[71] = {
+		ID = "Lilys 2020 FPIU Lightbar",
+		Scale = 1.25,
+		Pos = Vector(0, 0, 87.5),
+		Ang = Angle(0, 0, 0),
+		Color1 = "GREEN",
+		Color2 = "GREEN",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[72] = {
+		ID = "Lilys 2020 FPIU Interior Lightbar",
+		Scale = 1.25,
+		Pos = Vector(27, 27.5, 78.2),
+		Ang = Angle(0, 0, 0),
+		Color1 = "GREEN",
+		Color2 = "GREEN",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[73] = {
+		ID = "Lilys 2020 FPIU Exterior Lightbar",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 79.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "GREEN",
+		Color2 = "GREEN",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[74] = {
+		ID = "Lilys 2020 FPIU Rear Interior Lightbar",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 79.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "GREEN",
+		Color2 = "GREEN",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[75] = {
+		ID = "Lilys 2020 FPIU Rear Trunk Lightbar",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 0.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "GREEN",
+		Color2 = "GREEN",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[76] = {
+		ID = "Lilys 2020 FPIU Mirror",
+		Scale = 1.25,
+		Pos = Vector(-0, 52.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "GREEN",
+		Color2 = "GREEN",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[77] = {
+		ID = "Lilys 2020 FPIU Grill",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "GREEN",
+		Color2 = "GREEN",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[78] = {
+		ID = "Lilys 2020 FPIU Rambar Top",
+		Scale = 1.25,
+		Pos = Vector(-0, 127.5, 15.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "GREEN",
+		Color2 = "GREEN",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[79] = {
+		ID = "Lilys 2020 FPIU Rambar Side",
+		Scale = 1.25,
+		Pos = Vector(-0, 127.5, 15.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "GREEN",
+		Color2 = "GREEN",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[80] = {
+		ID = "Lilys 2020 FPIU Headlight Flashers RB",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "GREEN",
+		Color2 = "GREEN",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[81] = {
+		ID = "Lilys 2020 FPIU Foglights",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "GREEN",
+		Color2 = "GREEN",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[82] = {
+		ID = "Lilys 2020 FPIU Interior Lightbar Stock",
+		Scale = 1.25,
+		Pos = Vector(27, 27.5, 78.2),
+		Ang = Angle(0, 0, 0),
+		Color1 = "GREEN",
+		Color2 = "GREEN",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[83] = {
+		ID = "Lilys 2020 FPIU Exterior Lightbar Stock",
+		Scale = 1.25,
+		Pos = Vector(-0, -102.5, 79.35),
+		Ang = Angle(0, 180, 0),
+		Color1 = "GREEN",
+		Color2 = "GREEN",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	},
+	[84] = {
+		ID = "Lilys 2020 FPIU Headlight Flashers White",
+		Scale = 1.25,
+		Pos = Vector(-0, 122.5, 5.35),
+		Ang = Angle(0, 0, 0),
+		Color1 = "C_WHITE",
+		Color2 = "C_WHITE",
+		Skin = 0,
+		Bodygroups = {{1, 2}}
+	}
 }
 
 EMV.Selections = {
