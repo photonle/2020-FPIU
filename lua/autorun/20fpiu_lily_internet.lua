@@ -18,25 +18,17 @@ EMV.Skin = 0
 EMV.Color = Color(255,255,255)
 
 EMV.BodyGroups = {
-	{ 0, 0 }, -- car
-	{ 1, 0 }, -- pushbar
-	{ 2, 0 }, -- grillelights
-	{ 3, 1 }, -- mirrorlights
-	{ 4, 0 }, -- visorlights
-	{ 5, 0 }, -- lightbar
-	{ 6, 0 }, -- spotlight_l
-	{ 7, 0 }, -- spotlight_r
-	{ 8, 0 }, -- headlightflashers
-	{ 9, 0 }, -- spoilerlights
-	{ 10, 0 }, -- trunklights
-	{ 11, 0 }, -- rearwindowlights
-	{ 12, 0 }, -- clamped1
-	{ 13, 0 }, -- clamped2
-	{ 14, 0 }, -- clamped3
-	{ 15, 0 }, -- clamped4
-	{ 16, 0 }, -- clamped5
-	{ 17, 0 }, -- clamped6
-	{ 18, 0 }, -- clamped7
+	{1, 0}, -- Push Bar
+	{2, 0}, -- Grille Lights
+	{3, 1}, -- Mirror Lights
+	{4, 0}, -- Visor Lights
+	{5, 0}, -- Lightbar
+	{6, 0}, -- Left Spot
+	{7, 0}, -- Right Spot
+	{8, 0}, -- Headlight Flashes
+	{9, 0}, -- Spoiler Lights
+	{10, 0}, -- Trunk Lights
+	{11, 0} -- Rear Window lights
 }
 
 EMV.Auto = {
