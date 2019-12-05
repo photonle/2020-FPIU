@@ -1,6 +1,6 @@
 AddCSLuaFile()
 
-local VehicleName = "2020 Ford Police Interceptor Utility [Lily]"
+local VehicleName = "2020 Ford Police Interceptor Utility (Lily / Internet)"
 
 local EMV = {}
 local R = "RED"
@@ -50,10 +50,10 @@ EMV.Auto = {
 		Color2 = "BLUE",
 		Skin = 0,
 		Bodygroups = {
-			{ 1, 2 }  
+			{ 1, 2 }
 			},
 		},
-[2] =	{ 
+[2] =	{
 	ID = "Lilys 2020 FPIU Interior Lightbar",
 	Scale = 1.25,
 	Pos = Vector( 27, 27.5, 78.2 ),
@@ -62,10 +62,10 @@ EMV.Auto = {
 	Color2 = "BLUE",
 	Skin = 0,
 	Bodygroups = {
-		{ 1, 2 }  
+		{ 1, 2 }
 		},
 	},
-[3] =	{ 
+[3] =	{
 		ID = "Lilys 2020 FPIU Exterior Lightbar",
 		Scale = 1.25,
 		Pos = Vector( -0, -102.5, 79.35 ),
@@ -74,10 +74,10 @@ EMV.Auto = {
 		Color2 = "BLUE",
 		Skin = 0,
 		Bodygroups = {
-			{ 1, 2 }  
+			{ 1, 2 }
 		},
 	},
-[4] =	{ 
+[4] =	{
 		ID = "Lilys 2020 FPIU Rear Interior Lightbar",
 		Scale = 1.25,
 		Pos = Vector( -0, -102.5, 79.35 ),
@@ -86,10 +86,10 @@ EMV.Auto = {
 		Color2 = "BLUE",
 		Skin = 0,
 		Bodygroups = {
-			{ 1, 2 }  
+			{ 1, 2 }
 		},
 	},
-[5] =	{ 
+[5] =	{
 		ID = "Lilys 2020 FPIU Rear Trunk Lightbar",
 		Scale = 1.25,
 		Pos = Vector( -0, -102.5, 0.35 ),
@@ -98,10 +98,10 @@ EMV.Auto = {
 		Color2 = "BLUE",
 		Skin = 0,
 		Bodygroups = {
-			{ 1, 2 }  
+			{ 1, 2 }
 		},
 	},
-[6] =	{ 
+[6] =	{
 		ID = "Lilys 2020 FPIU Mirror",
 		Scale = 1.25,
 		Pos = Vector( -0, 52.5, 5.35 ),
@@ -110,10 +110,10 @@ EMV.Auto = {
 		Color2 = "BLUE",
 		Skin = 0,
 		Bodygroups = {
-			{ 1, 2 }  
+			{ 1, 2 }
 		},
 	},
-[7] =	{ 
+[7] =	{
 		ID = "Lilys 2020 FPIU Grill",
 		Scale = 1.25,
 		Pos = Vector( -0, 122.5, 5.35 ),
@@ -122,10 +122,10 @@ EMV.Auto = {
 		Color2 = "BLUE",
 		Skin = 0,
 		Bodygroups = {
-			{ 1, 2 }  
+			{ 1, 2 }
 		},
 	},
-[8] =	{ 
+[8] =	{
 		ID = "Lilys 2020 FPIU Rambar Top",
 		Scale = 1.25,
 		Pos = Vector( -0, 127.5, 15.35 ),
@@ -134,10 +134,10 @@ EMV.Auto = {
 		Color2 = "BLUE",
 		Skin = 0,
 		Bodygroups = {
-			{ 1, 2 }  
+			{ 1, 2 }
 		},
 	},
-[9]	= { 
+[9]	= {
 		ID = "Lilys 2020 FPIU Rambar Side",
 		Scale = 1.25,
 		Pos = Vector( -0, 127.5, 15.35 ),
@@ -146,10 +146,10 @@ EMV.Auto = {
 		Color2 = "BLUE",
 		Skin = 0,
 		Bodygroups = {
-			{ 1, 2 }  
+			{ 1, 2 }
 		},
 	},
-[10] =	{ 
+[10] =	{
 		ID = "Lilys 2020 FPIU Headlight Flashers White",
 		Scale = 1.25,
 		Pos = Vector( -0, 122.5, 5.35 ),
@@ -158,10 +158,10 @@ EMV.Auto = {
 		Color2 = "C_WHITE",
 		Skin = 0,
 		Bodygroups = {
-			{ 1, 2 }  
+			{ 1, 2 }
 		},
 	},
-[11]  =	{ 
+[11]  =	{
 		ID = "Lilys 2020 FPIU Headlight Flashers RB",
 		Scale = 1.25,
 		Pos = Vector( -0, 122.5, 5.35 ),
@@ -170,10 +170,10 @@ EMV.Auto = {
 		Color2 = "BLUE",
 		Skin = 0,
 		Bodygroups = {
-			{ 1, 2 }  
+			{ 1, 2 }
 		},
 	},
-[12] =	{ 
+[12] =	{
 		ID = "Lilys 2020 FPIU Foglights",
 		Scale = 1.25,
 		Pos = Vector( -0, 122.5, 5.35 ),
@@ -182,10 +182,10 @@ EMV.Auto = {
 		Color2 = "BLUE",
 		Skin = 0,
 		Bodygroups = {
-			{ 1, 2 }  
+			{ 1, 2 }
 		},
 	},
-[13] =	{ 
+[13] =	{
 		ID = "Lilys 2020 FPIU Interior Lightbar Stock",
 		Scale = 1.25,
 		Pos = Vector( 27, 27.5, 78.2 ),
@@ -194,10 +194,10 @@ EMV.Auto = {
 		Color2 = "BLUE",
 		Skin = 0,
 		Bodygroups = {
-			{ 1, 2 }  
+			{ 1, 2 }
 			},
 		},
-[14] =	{ 
+[14] =	{
 			ID = "Lilys 2020 FPIU Exterior Lightbar Stock",
 			Scale = 1.25,
 			Pos = Vector( -0, -102.5, 79.35 ),
@@ -206,7 +206,7 @@ EMV.Auto = {
 			Color2 = "BLUE",
 			Skin = 0,
 			Bodygroups = {
-				{ 1, 2 }  
+				{ 1, 2 }
 			},
 		},
 		-- B/B Section
@@ -219,10 +219,10 @@ EMV.Auto = {
 			Color2 = "BLUE",
 			Skin = 0,
 			Bodygroups = {
-				{ 1, 2 }  
+				{ 1, 2 }
 				},
 			},
-	[16] =	{ 
+	[16] =	{
 		ID = "Lilys 2020 FPIU Interior Lightbar",
 		Scale = 1.25,
 		Pos = Vector( 27, 27.5, 78.2 ),
@@ -231,10 +231,10 @@ EMV.Auto = {
 		Color2 = "BLUE",
 		Skin = 0,
 		Bodygroups = {
-			{ 1, 2 }  
+			{ 1, 2 }
 			},
 		},
-	[17] =	{ 
+	[17] =	{
 			ID = "Lilys 2020 FPIU Exterior Lightbar",
 			Scale = 1.25,
 			Pos = Vector( -0, -102.5, 79.35 ),
@@ -243,10 +243,10 @@ EMV.Auto = {
 			Color2 = "BLUE",
 			Skin = 0,
 			Bodygroups = {
-				{ 1, 2 }  
+				{ 1, 2 }
 			},
 		},
-	[18] =	{ 
+	[18] =	{
 			ID = "Lilys 2020 FPIU Rear Interior Lightbar",
 			Scale = 1.25,
 			Pos = Vector( -0, -102.5, 79.35 ),
@@ -255,10 +255,10 @@ EMV.Auto = {
 			Color2 = "BLUE",
 			Skin = 0,
 			Bodygroups = {
-				{ 1, 2 }  
+				{ 1, 2 }
 			},
 		},
-	[19] =	{ 
+	[19] =	{
 			ID = "Lilys 2020 FPIU Rear Trunk Lightbar",
 			Scale = 1.25,
 			Pos = Vector( -0, -102.5, 0.35 ),
@@ -267,10 +267,10 @@ EMV.Auto = {
 			Color2 = "BLUE",
 			Skin = 0,
 			Bodygroups = {
-				{ 1, 2 }  
+				{ 1, 2 }
 			},
 		},
-	[20] =	{ 
+	[20] =	{
 			ID = "Lilys 2020 FPIU Mirror",
 			Scale = 1.25,
 			Pos = Vector( -0, 52.5, 5.35 ),
@@ -279,10 +279,10 @@ EMV.Auto = {
 			Color2 = "BLUE",
 			Skin = 0,
 			Bodygroups = {
-				{ 1, 2 }  
+				{ 1, 2 }
 			},
 		},
-	[21] =	{ 
+	[21] =	{
 			ID = "Lilys 2020 FPIU Grill",
 			Scale = 1.25,
 			Pos = Vector( -0, 122.5, 5.35 ),
@@ -291,10 +291,10 @@ EMV.Auto = {
 			Color2 = "BLUE",
 			Skin = 0,
 			Bodygroups = {
-				{ 1, 2 }  
+				{ 1, 2 }
 			},
 		},
-	[22] =	{ 
+	[22] =	{
 			ID = "Lilys 2020 FPIU Rambar Top",
 			Scale = 1.25,
 			Pos = Vector( -0, 127.5, 15.35 ),
@@ -303,10 +303,10 @@ EMV.Auto = {
 			Color2 = "BLUE",
 			Skin = 0,
 			Bodygroups = {
-				{ 1, 2 }  
+				{ 1, 2 }
 			},
 		},
-	[23]	= { 
+	[23]	= {
 			ID = "Lilys 2020 FPIU Rambar Side",
 			Scale = 1.25,
 			Pos = Vector( -0, 127.5, 15.35 ),
@@ -315,10 +315,10 @@ EMV.Auto = {
 			Color2 = "BLUE",
 			Skin = 0,
 			Bodygroups = {
-				{ 1, 2 }  
+				{ 1, 2 }
 			},
 		},
-	[24]  =	{ 
+	[24]  =	{
 			ID = "Lilys 2020 FPIU Headlight Flashers RB",
 			Scale = 1.25,
 			Pos = Vector( -0, 122.5, 5.35 ),
@@ -327,10 +327,10 @@ EMV.Auto = {
 			Color2 = "BLUE",
 			Skin = 0,
 			Bodygroups = {
-				{ 1, 2 }  
+				{ 1, 2 }
 			},
 		},
-	[25] =	{ 
+	[25] =	{
 			ID = "Lilys 2020 FPIU Foglights",
 			Scale = 1.25,
 			Pos = Vector( -0, 122.5, 5.35 ),
@@ -339,10 +339,10 @@ EMV.Auto = {
 			Color2 = "BLUE",
 			Skin = 0,
 			Bodygroups = {
-				{ 1, 2 }  
+				{ 1, 2 }
 			},
 		},
-	[26] =	{ 
+	[26] =	{
 			ID = "Lilys 2020 FPIU Interior Lightbar Stock",
 			Scale = 1.25,
 			Pos = Vector( 27, 27.5, 78.2 ),
@@ -351,10 +351,10 @@ EMV.Auto = {
 			Color2 = "BLUE",
 			Skin = 0,
 			Bodygroups = {
-				{ 1, 2 }  
+				{ 1, 2 }
 				},
 			},
-	[27] =	{ 
+	[27] =	{
 				ID = "Lilys 2020 FPIU Exterior Lightbar Stock",
 				Scale = 1.25,
 				Pos = Vector( -0, -102.5, 79.35 ),
@@ -363,10 +363,10 @@ EMV.Auto = {
 				Color2 = "BLUE",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-			[28] =	{ 
+			[28] =	{
 				ID = "Lilys 2020 FPIU Headlight Flashers White",
 				Scale = 1.25,
 				Pos = Vector( -0, 122.5, 5.35 ),
@@ -375,7 +375,7 @@ EMV.Auto = {
 				Color2 = "C_WHITE",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
 			-- R/R
@@ -389,10 +389,10 @@ EMV.Auto = {
 				Color2 = "RED",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 					},
 				},
-		[30] =	{ 
+		[30] =	{
 			ID = "Lilys 2020 FPIU Interior Lightbar",
 			Scale = 1.25,
 			Pos = Vector( 27, 27.5, 78.2 ),
@@ -401,10 +401,10 @@ EMV.Auto = {
 			Color2 = "RED",
 			Skin = 0,
 			Bodygroups = {
-				{ 1, 2 }  
+				{ 1, 2 }
 				},
 			},
-		[31] =	{ 
+		[31] =	{
 				ID = "Lilys 2020 FPIU Exterior Lightbar",
 				Scale = 1.25,
 				Pos = Vector( -0, -102.5, 79.35 ),
@@ -413,10 +413,10 @@ EMV.Auto = {
 				Color2 = "RED",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[32] =	{ 
+		[32] =	{
 				ID = "Lilys 2020 FPIU Rear Interior Lightbar",
 				Scale = 1.25,
 				Pos = Vector( -0, -102.5, 79.35 ),
@@ -425,10 +425,10 @@ EMV.Auto = {
 				Color2 = "RED",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[33] =	{ 
+		[33] =	{
 				ID = "Lilys 2020 FPIU Rear Trunk Lightbar",
 				Scale = 1.25,
 				Pos = Vector( -0, -102.5, 0.35 ),
@@ -437,10 +437,10 @@ EMV.Auto = {
 				Color2 = "RED",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[34] =	{ 
+		[34] =	{
 				ID = "Lilys 2020 FPIU Mirror",
 				Scale = 1.25,
 				Pos = Vector( -0, 52.5, 5.35 ),
@@ -449,10 +449,10 @@ EMV.Auto = {
 				Color2 = "RED",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[35] =	{ 
+		[35] =	{
 				ID = "Lilys 2020 FPIU Grill",
 				Scale = 1.25,
 				Pos = Vector( -0, 122.5, 5.35 ),
@@ -461,10 +461,10 @@ EMV.Auto = {
 				Color2 = "RED",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[36] =	{ 
+		[36] =	{
 				ID = "Lilys 2020 FPIU Rambar Top",
 				Scale = 1.25,
 				Pos = Vector( -0, 127.5, 15.35 ),
@@ -473,10 +473,10 @@ EMV.Auto = {
 				Color2 = "RED",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[37]	= { 
+		[37]	= {
 				ID = "Lilys 2020 FPIU Rambar Side",
 				Scale = 1.25,
 				Pos = Vector( -0, 127.5, 15.35 ),
@@ -485,10 +485,10 @@ EMV.Auto = {
 				Color2 = "RED",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[38]  =	{ 
+		[38]  =	{
 				ID = "Lilys 2020 FPIU Headlight Flashers RB",
 				Scale = 1.25,
 				Pos = Vector( -0, 122.5, 5.35 ),
@@ -497,10 +497,10 @@ EMV.Auto = {
 				Color2 = "RED",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[39] =	{ 
+		[39] =	{
 				ID = "Lilys 2020 FPIU Foglights",
 				Scale = 1.25,
 				Pos = Vector( -0, 122.5, 5.35 ),
@@ -509,10 +509,10 @@ EMV.Auto = {
 				Color2 = "RED",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[40] =	{ 
+		[40] =	{
 				ID = "Lilys 2020 FPIU Interior Lightbar Stock",
 				Scale = 1.25,
 				Pos = Vector( 27, 27.5, 78.2 ),
@@ -521,10 +521,10 @@ EMV.Auto = {
 				Color2 = "RED",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 					},
 				},
-		[41] =	{ 
+		[41] =	{
 					ID = "Lilys 2020 FPIU Exterior Lightbar Stock",
 					Scale = 1.25,
 					Pos = Vector( -0, -102.5, 79.35 ),
@@ -533,10 +533,10 @@ EMV.Auto = {
 					Color2 = "RED",
 					Skin = 0,
 					Bodygroups = {
-						{ 1, 2 }  
+						{ 1, 2 }
 					},
 				},
-				[42] =	{ 
+				[42] =	{
 					ID = "Lilys 2020 FPIU Headlight Flashers White",
 					Scale = 1.25,
 					Pos = Vector( -0, 122.5, 5.35 ),
@@ -545,9 +545,9 @@ EMV.Auto = {
 					Color2 = "C_WHITE",
 					Skin = 0,
 					Bodygroups = {
-						{ 1, 2 }  
+						{ 1, 2 }
 					},
-				},		
+				},
 				-- A/A
 
 			[43] =	{
@@ -559,10 +559,10 @@ EMV.Auto = {
 				Color2 = "AMBER",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 					},
 				},
-		[44] =	{ 
+		[44] =	{
 			ID = "Lilys 2020 FPIU Interior Lightbar",
 			Scale = 1.25,
 			Pos = Vector( 27, 27.5, 78.2 ),
@@ -571,10 +571,10 @@ EMV.Auto = {
 			Color2 = "AMBER",
 			Skin = 0,
 			Bodygroups = {
-				{ 1, 2 }  
+				{ 1, 2 }
 				},
 			},
-		[45] =	{ 
+		[45] =	{
 				ID = "Lilys 2020 FPIU Exterior Lightbar",
 				Scale = 1.25,
 				Pos = Vector( -0, -102.5, 79.35 ),
@@ -583,10 +583,10 @@ EMV.Auto = {
 				Color2 = "AMBER",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[46] =	{ 
+		[46] =	{
 				ID = "Lilys 2020 FPIU Rear Interior Lightbar",
 				Scale = 1.25,
 				Pos = Vector( -0, -102.5, 79.35 ),
@@ -595,10 +595,10 @@ EMV.Auto = {
 				Color2 = "AMBER",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[47] =	{ 
+		[47] =	{
 				ID = "Lilys 2020 FPIU Rear Trunk Lightbar",
 				Scale = 1.25,
 				Pos = Vector( -0, -102.5, 0.35 ),
@@ -607,10 +607,10 @@ EMV.Auto = {
 				Color2 = "AMBER",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[48] =	{ 
+		[48] =	{
 				ID = "Lilys 2020 FPIU Mirror",
 				Scale = 1.25,
 				Pos = Vector( -0, 52.5, 5.35 ),
@@ -619,10 +619,10 @@ EMV.Auto = {
 				Color2 = "AMBER",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[49] =	{ 
+		[49] =	{
 				ID = "Lilys 2020 FPIU Grill",
 				Scale = 1.25,
 				Pos = Vector( -0, 122.5, 5.35 ),
@@ -631,10 +631,10 @@ EMV.Auto = {
 				Color2 = "AMBER",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[50] =	{ 
+		[50] =	{
 				ID = "Lilys 2020 FPIU Rambar Top",
 				Scale = 1.25,
 				Pos = Vector( -0, 127.5, 15.35 ),
@@ -643,10 +643,10 @@ EMV.Auto = {
 				Color2 = "AMBER",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[51]	= { 
+		[51]	= {
 				ID = "Lilys 2020 FPIU Rambar Side",
 				Scale = 1.25,
 				Pos = Vector( -0, 127.5, 15.35 ),
@@ -655,10 +655,10 @@ EMV.Auto = {
 				Color2 = "AMBER",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[52]  =	{ 
+		[52]  =	{
 				ID = "Lilys 2020 FPIU Headlight Flashers RB",
 				Scale = 1.25,
 				Pos = Vector( -0, 122.5, 5.35 ),
@@ -667,10 +667,10 @@ EMV.Auto = {
 				Color2 = "AMBER",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[53] =	{ 
+		[53] =	{
 				ID = "Lilys 2020 FPIU Foglights",
 				Scale = 1.25,
 				Pos = Vector( -0, 122.5, 5.35 ),
@@ -679,10 +679,10 @@ EMV.Auto = {
 				Color2 = "AMBER",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[54] =	{ 
+		[54] =	{
 				ID = "Lilys 2020 FPIU Interior Lightbar Stock",
 				Scale = 1.25,
 				Pos = Vector( 27, 27.5, 78.2 ),
@@ -691,10 +691,10 @@ EMV.Auto = {
 				Color2 = "AMBER",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 					},
 				},
-		[55] =	{ 
+		[55] =	{
 					ID = "Lilys 2020 FPIU Exterior Lightbar Stock",
 					Scale = 1.25,
 					Pos = Vector( -0, -102.5, 79.35 ),
@@ -703,10 +703,10 @@ EMV.Auto = {
 					Color2 = "AMBER",
 					Skin = 0,
 					Bodygroups = {
-						{ 1, 2 }  
+						{ 1, 2 }
 					},
 				},
-				[56] =	{ 
+				[56] =	{
 					ID = "Lilys 2020 FPIU Headlight Flashers White",
 					Scale = 1.25,
 					Pos = Vector( -0, 122.5, 5.35 ),
@@ -715,9 +715,9 @@ EMV.Auto = {
 					Color2 = "C_WHITE",
 					Skin = 0,
 					Bodygroups = {
-						{ 1, 2 }  
+						{ 1, 2 }
 					},
-				},	
+				},
 			-- 	A/W
 
 			[57] =	{
@@ -729,10 +729,10 @@ EMV.Auto = {
 				Color2 = "C_WHITE",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 					},
 				},
-		[58] =	{ 
+		[58] =	{
 			ID = "Lilys 2020 FPIU Interior Lightbar",
 			Scale = 1.25,
 			Pos = Vector( 27, 27.5, 78.2 ),
@@ -741,10 +741,10 @@ EMV.Auto = {
 			Color2 = "C_WHITE",
 			Skin = 0,
 			Bodygroups = {
-				{ 1, 2 }  
+				{ 1, 2 }
 				},
 			},
-		[59] =	{ 
+		[59] =	{
 				ID = "Lilys 2020 FPIU Exterior Lightbar",
 				Scale = 1.25,
 				Pos = Vector( -0, -102.5, 79.35 ),
@@ -753,10 +753,10 @@ EMV.Auto = {
 				Color2 = "C_WHITE",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[60] =	{ 
+		[60] =	{
 				ID = "Lilys 2020 FPIU Rear Interior Lightbar",
 				Scale = 1.25,
 				Pos = Vector( -0, -102.5, 79.35 ),
@@ -765,10 +765,10 @@ EMV.Auto = {
 				Color2 = "C_WHITE",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[61] =	{ 
+		[61] =	{
 				ID = "Lilys 2020 FPIU Rear Trunk Lightbar",
 				Scale = 1.25,
 				Pos = Vector( -0, -102.5, 0.35 ),
@@ -777,10 +777,10 @@ EMV.Auto = {
 				Color2 = "C_WHITE",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[62] =	{ 
+		[62] =	{
 				ID = "Lilys 2020 FPIU Mirror",
 				Scale = 1.25,
 				Pos = Vector( -0, 52.5, 5.35 ),
@@ -789,10 +789,10 @@ EMV.Auto = {
 				Color2 = "C_WHITE",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[63] =	{ 
+		[63] =	{
 				ID = "Lilys 2020 FPIU Grill",
 				Scale = 1.25,
 				Pos = Vector( -0, 122.5, 5.35 ),
@@ -801,10 +801,10 @@ EMV.Auto = {
 				Color2 = "C_WHITE",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[64] =	{ 
+		[64] =	{
 				ID = "Lilys 2020 FPIU Rambar Top",
 				Scale = 1.25,
 				Pos = Vector( -0, 127.5, 15.35 ),
@@ -813,10 +813,10 @@ EMV.Auto = {
 				Color2 = "C_WHITE",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[65]	= { 
+		[65]	= {
 				ID = "Lilys 2020 FPIU Rambar Side",
 				Scale = 1.25,
 				Pos = Vector( -0, 127.5, 15.35 ),
@@ -825,10 +825,10 @@ EMV.Auto = {
 				Color2 = "C_WHITE",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[66]  =	{ 
+		[66]  =	{
 				ID = "Lilys 2020 FPIU Headlight Flashers RB",
 				Scale = 1.25,
 				Pos = Vector( -0, 122.5, 5.35 ),
@@ -837,10 +837,10 @@ EMV.Auto = {
 				Color2 = "C_WHITE",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[67] =	{ 
+		[67] =	{
 				ID = "Lilys 2020 FPIU Foglights",
 				Scale = 1.25,
 				Pos = Vector( -0, 122.5, 5.35 ),
@@ -849,10 +849,10 @@ EMV.Auto = {
 				Color2 = "C_WHITE",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 				},
 			},
-		[68] =	{ 
+		[68] =	{
 				ID = "Lilys 2020 FPIU Interior Lightbar Stock",
 				Scale = 1.25,
 				Pos = Vector( 27, 27.5, 78.2 ),
@@ -861,10 +861,10 @@ EMV.Auto = {
 				Color2 = "C_WHITE",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 					},
 				},
-		[69] =	{ 
+		[69] =	{
 					ID = "Lilys 2020 FPIU Exterior Lightbar Stock",
 					Scale = 1.25,
 					Pos = Vector( -0, -102.5, 79.35 ),
@@ -873,10 +873,10 @@ EMV.Auto = {
 					Color2 = "C_WHITE",
 					Skin = 0,
 					Bodygroups = {
-						{ 1, 2 }  
+						{ 1, 2 }
 					},
 				},
-				[70] =	{ 
+				[70] =	{
 					ID = "Lilys 2020 FPIU Headlight Flashers White",
 					Scale = 1.25,
 					Pos = Vector( -0, 122.5, 5.35 ),
@@ -885,9 +885,9 @@ EMV.Auto = {
 					Color2 = "C_WHITE",
 					Skin = 0,
 					Bodygroups = {
-						{ 1, 2 }  
+						{ 1, 2 }
 					},
-				},			
+				},
 				-- G/G
 
 				[71] =	{
@@ -899,10 +899,10 @@ EMV.Auto = {
 					Color2 = "GREEN",
 					Skin = 0,
 					Bodygroups = {
-						{ 1, 2 }  
+						{ 1, 2 }
 						},
 					},
-			[72] =	{ 
+			[72] =	{
 				ID = "Lilys 2020 FPIU Interior Lightbar",
 				Scale = 1.25,
 				Pos = Vector( 27, 27.5, 78.2 ),
@@ -911,10 +911,10 @@ EMV.Auto = {
 				Color2 = "GREEN",
 				Skin = 0,
 				Bodygroups = {
-					{ 1, 2 }  
+					{ 1, 2 }
 					},
 				},
-			[73] =	{ 
+			[73] =	{
 					ID = "Lilys 2020 FPIU Exterior Lightbar",
 					Scale = 1.25,
 					Pos = Vector( -0, -102.5, 79.35 ),
@@ -923,10 +923,10 @@ EMV.Auto = {
 					Color2 = "GREEN",
 					Skin = 0,
 					Bodygroups = {
-						{ 1, 2 }  
+						{ 1, 2 }
 					},
 				},
-			[74] =	{ 
+			[74] =	{
 					ID = "Lilys 2020 FPIU Rear Interior Lightbar",
 					Scale = 1.25,
 					Pos = Vector( -0, -102.5, 79.35 ),
@@ -935,10 +935,10 @@ EMV.Auto = {
 					Color2 = "GREEN",
 					Skin = 0,
 					Bodygroups = {
-						{ 1, 2 }  
+						{ 1, 2 }
 					},
 				},
-			[75] =	{ 
+			[75] =	{
 					ID = "Lilys 2020 FPIU Rear Trunk Lightbar",
 					Scale = 1.25,
 					Pos = Vector( -0, -102.5, 0.35 ),
@@ -947,10 +947,10 @@ EMV.Auto = {
 					Color2 = "GREEN",
 					Skin = 0,
 					Bodygroups = {
-						{ 1, 2 }  
+						{ 1, 2 }
 					},
 				},
-			[76] =	{ 
+			[76] =	{
 					ID = "Lilys 2020 FPIU Mirror",
 					Scale = 1.25,
 					Pos = Vector( -0, 52.5, 5.35 ),
@@ -959,10 +959,10 @@ EMV.Auto = {
 					Color2 = "GREEN",
 					Skin = 0,
 					Bodygroups = {
-						{ 1, 2 }  
+						{ 1, 2 }
 					},
 				},
-			[77] =	{ 
+			[77] =	{
 					ID = "Lilys 2020 FPIU Grill",
 					Scale = 1.25,
 					Pos = Vector( -0, 122.5, 5.35 ),
@@ -971,10 +971,10 @@ EMV.Auto = {
 					Color2 = "GREEN",
 					Skin = 0,
 					Bodygroups = {
-						{ 1, 2 }  
+						{ 1, 2 }
 					},
 				},
-			[78] =	{ 
+			[78] =	{
 					ID = "Lilys 2020 FPIU Rambar Top",
 					Scale = 1.25,
 					Pos = Vector( -0, 127.5, 15.35 ),
@@ -983,10 +983,10 @@ EMV.Auto = {
 					Color2 = "GREEN",
 					Skin = 0,
 					Bodygroups = {
-						{ 1, 2 }  
+						{ 1, 2 }
 					},
 				},
-			[79]	= { 
+			[79]	= {
 					ID = "Lilys 2020 FPIU Rambar Side",
 					Scale = 1.25,
 					Pos = Vector( -0, 127.5, 15.35 ),
@@ -995,10 +995,10 @@ EMV.Auto = {
 					Color2 = "GREEN",
 					Skin = 0,
 					Bodygroups = {
-						{ 1, 2 }  
+						{ 1, 2 }
 					},
 				},
-			[80]  =	{ 
+			[80]  =	{
 					ID = "Lilys 2020 FPIU Headlight Flashers RB",
 					Scale = 1.25,
 					Pos = Vector( -0, 122.5, 5.35 ),
@@ -1007,10 +1007,10 @@ EMV.Auto = {
 					Color2 = "GREEN",
 					Skin = 0,
 					Bodygroups = {
-						{ 1, 2 }  
+						{ 1, 2 }
 					},
 				},
-			[81] =	{ 
+			[81] =	{
 					ID = "Lilys 2020 FPIU Foglights",
 					Scale = 1.25,
 					Pos = Vector( -0, 122.5, 5.35 ),
@@ -1019,10 +1019,10 @@ EMV.Auto = {
 					Color2 = "GREEN",
 					Skin = 0,
 					Bodygroups = {
-						{ 1, 2 }  
+						{ 1, 2 }
 					},
 				},
-			[82] =	{ 
+			[82] =	{
 					ID = "Lilys 2020 FPIU Interior Lightbar Stock",
 					Scale = 1.25,
 					Pos = Vector( 27, 27.5, 78.2 ),
@@ -1031,10 +1031,10 @@ EMV.Auto = {
 					Color2 = "GREEN",
 					Skin = 0,
 					Bodygroups = {
-						{ 1, 2 }  
+						{ 1, 2 }
 						},
 					},
-			[83] =	{ 
+			[83] =	{
 						ID = "Lilys 2020 FPIU Exterior Lightbar Stock",
 						Scale = 1.25,
 						Pos = Vector( -0, -102.5, 79.35 ),
@@ -1043,10 +1043,10 @@ EMV.Auto = {
 						Color2 = "GREEN",
 						Skin = 0,
 						Bodygroups = {
-							{ 1, 2 }  
+							{ 1, 2 }
 						},
 					},
-					[84] =	{ 
+					[84] =	{
 						ID = "Lilys 2020 FPIU Headlight Flashers White",
 						Scale = 1.25,
 						Pos = Vector( -0, 122.5, 5.35 ),
@@ -1055,52 +1055,13 @@ EMV.Auto = {
 						Color2 = "C_WHITE",
 						Skin = 0,
 						Bodygroups = {
-							{ 1, 2 }  
+							{ 1, 2 }
 						},
-					},					
+					},
 
 }
 
 EMV.Selections = {
-	{
-		Name = "Preset",
-		Options = {
-		 -- R/B
-		 { Category = "Red/Blue", Name = "Marked Custom", Auto = {1,2,3,4,5,6,7,8,9,10,11,12}, Props = {  } },
-		 { Category = "Red/Blue", Name = "Marked Stock", Auto = {1,4,5,6,7,8,9,10,11,12,13,14}, Props = {  } },
-		 { Category = "Red/Blue", Name = "Slicktop Stock", Auto = {4,5,6,7,8,9,10,11,12,13,14}, Props = {  } },
-		 { Category = "Red/Blue", Name = "Slicktop Custom", Auto = {2,3,4,5,6,7,8,9,10,11,12}, Props = {  } },
-		 -- B/B
-		 { Category = "Blue/Blue", Name = "Marked Custom", Auto = {15,16,17,18,19,20,21,22,23,24,25,28}, Props = {  } },
-		 { Category = "Blue/Blue", Name = "Marked Stock", Auto = {15,26,27,18,19,20,21,22,23,24,25,28}, Props = {  } },
-		 { Category = "Blue/Blue", Name = "Slicktop Custom", Auto = {16,17,18,19,20,21,22,23,24,25,28}, Props = {  } },
-		 { Category = "Blue/Blue", Name = "Slicktop Stock", Auto = {26,27,18,19,20,21,22,23,24,25,28}, Props = {  } },
-		 -- R/R
-		 { Category = "Red/Red", Name = "Marked Custom", Auto = {29,30,31,32,33,34,35,36,37,38,39,42}, Props = {  } },
-		 { Category = "Red/Red", Name = "Marked Stock", Auto = {29,41,40,32,33,34,35,36,37,38,39,42}, Props = {  } },
-		 { Category = "Red/Red", Name = "Slicktop Custom", Auto = {30,31,32,33,34,35,36,37,38,39,42}, Props = {  } },
-		 { Category = "Red/Red", Name = "Slicktop Stock", Auto = {41,40,32,33,34,35,36,37,38,39,42}, Props = {  } },
-		 -- A/A
-		 { Category = "Amber/Amber", Name = "Marked Custom", Auto = {43,44,45,46,47,48,49,50,51,52,53}, Props = {  } },
-		 { Category = "Amber/Amber", Name = "Marked Stock", Auto = {43,54,55,46,47,48,49,50,51,52,53}, Props = {  } },
-		 { Category = "Amber/Amber", Name = "Slicktop Custom", Auto = {44,45,46,47,48,49,50,51,52,53}, Props = {  } },
-		 { Category = "Amber/Amber", Name = "Slicktop Stock", Auto = {54,55,46,47,48,49,50,51,52,53}, Props = {  } },
-		 -- A/W
-		 { Category = "Amber/White", Name = "Marked Custom", Auto = {57,58,59,60,61,62,63,64,65,66,67,70}, Props = {  } },
-		 { Category = "Amber/White", Name = "Marked Stock", Auto = {57,68,69,60,61,62,63,64,65,66,67,70}, Props = {  } },
-		 { Category = "Amber/White", Name = "Slicktop Custom", Auto = {58,59,60,61,62,63,64,65,66,67,70}, Props = {  } },
-		 { Category = "Amber/White", Name = "Slicktop Stock", Auto = {68,69,60,61,62,63,64,65,66,67,70}, Props = {  } },
-		 -- G/G
-		 { Category = "Green/Green", Name = "Marked Custom", Auto = {71,72,73,74,75,76,77,78,79,80,81,84}, Props = {  } },
-		 { Category = "Green/Green", Name = "Marked Stock", Auto = {71,82,83,74,75,76,77,78,79,80,81,84}, Props = {  } },
-		 { Category = "Green/Green", Name = "Slicktop Custom", Auto = {72,73,74,75,76,77,78,79,80,81,84}, Props = {  } },
-		 { Category = "Green/Green", Name = "Slicktop Stock", Auto = {82,83,74,75,76,77,78,79,80,81,84}, Props = {  } },
-		 -- Nothing
-		 { Name = "Stock", Auto = {}, Props = {  } },
-
-
-		},
-	},
 	{
 		Name = "Lightbar",
 		Options = {
@@ -1274,7 +1235,7 @@ EMV.Selections = {
 		 { Name = "A/W", Auto = {67}, Props = {  } },
 		 { Name = "G/G", Auto = {81}, Props = {  } },
 		},
-	},	
+	},
 }
 
 EMV.Meta = {
@@ -1303,7 +1264,7 @@ EMV.Meta = {
 }
 
 EMV.Positions = {
-     
+
 	[1] = { Vector( -44.65, 57.63, 68.5 ), Angle(0,0,0), "Spotlight" },
 	[2] = { Vector( -35.3, -109.47, 48.81 ), Angle( 180, -26.1, 180-5 ), "reverse" },
 	[3] = { Vector( 35.3, -109.47, 48.81 ), Angle( 0, 26.1, 5 ), "reverse" },
@@ -1338,17 +1299,17 @@ EMV.Sections = {
 }
 
 EMV.Patterns = {
-    ["Spotlight"] = {  
+    ["Spotlight"] = {
          ["Spotlight"] = {
           1
         },
 	},
-	["reverse"] = {  
+	["reverse"] = {
 		["on"] = {
 			1,1,2,2,1,0,1,1,2,2,1,1,2,2,1,1,2,2,1,1,0,2,2,1,1,2,2,1,1,2,2,0
 	   },
    },
-   ["headlight"] = {  
+   ["headlight"] = {
 	["on"] = {
 		1,1,2,2,1,0,1,1,2,2,1,1,2,2,1,1,2,2,1,1,0,2,2,1,1,2,2,1,1,2,2,0
    },
@@ -1468,7 +1429,7 @@ EMV.Lamps = {
         FOV = 105,
         Distance = 2000,
 	},
-} 
+}
 
 local V = {
 	Name = VehicleName,
@@ -1485,4 +1446,3 @@ local V = {
 list.Set( "Vehicles", VehicleName, V )
 
 if EMVU then EMVU:OverwriteIndex( VehicleName, EMV ) end
-
