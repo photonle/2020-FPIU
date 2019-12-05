@@ -1090,49 +1090,39 @@ EMV.Selections = {
 		Name = "Rear Upper Deck",
 		Options = {
 			{
-				Name = "None",
-				Auto = {},
-				Props = {}
-			},
-			{
 				Name = "Red/Blue",
 				Auto = {4},
-				Props = {}
+				Bodygroups = {{12, 0}}
 			},
 			{
-				Name = "Blue/Blue",
+				Name = "Blue",
 				Auto = {18},
-				Props = {}
+				Bodygroups = {{12, 0}}
 			},
 			{
-				Name = "Red/Red",
+				Name = "Red",
 				Auto = {32},
-				Props = {}
+				Bodygroups = {{12, 0}}
 			},
 			{
-				Name = "Amber/Amber",
+				Name = "Amber",
 				Auto = {46},
-				Props = {}
+				Bodygroups = {{12, 0}}
 			},
 			{
 				Name = "Amber/White",
 				Auto = {60},
-				Props = {}
+				Bodygroups = {{12, 0}}
 			},
 			{
-				Name = "Green/Green",
+				Name = "Green",
 				Auto = {74},
-				Props = {}
-			}
-		}
-	},
-	{
-		Name = "Trunk Lights",
-		Options = {
+				Bodygroups = {{12, 0}}
+			},
 			{
 				Name = "None",
 				Auto = {},
-				Props = {}
+				Bodygroups = {{12, 1}}
 			},
 			{
 				Name = "Red/Blue",
