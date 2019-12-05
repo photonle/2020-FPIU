@@ -1627,7 +1627,7 @@ EMV.Sequences = {
 	Illumination = {
 		{
 			Name = "Left",
-			Icon = "alley",
+			Icon = "alley-left",
 			Stage = "L",
 			Components = {},
 			BG_Components = {},
@@ -1637,7 +1637,7 @@ EMV.Sequences = {
 		},
 		{
 			Name = "Right",
-			Icon = "alley",
+			Icon = "alley-right",
 			Stage = "R",
 			Components = {},
 			BG_Components = {},
@@ -1657,7 +1657,7 @@ EMV.Sequences = {
 		},
 		{
 			Name = "Spotlight",
-			Icon = "takedown",
+			Icon = "lamp",
 			Stage = "S",
 			Components = {{1, CW}},
 			BG_Components = {},
@@ -1667,7 +1667,7 @@ EMV.Sequences = {
 		},
 		{
 			Name = "All",
-			Icon = "takedown",
+			Icon = "alley",
 			Stage = "T",
 			Components = {{1, CW}},
 			BG_Components = {},
