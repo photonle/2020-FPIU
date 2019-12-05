@@ -871,39 +871,39 @@ EMV.Selections = {
 		Name = "Lightbar",
 		Options = {
 			{
-				Name = "None",
-				Auto = {},
-				Props = {}
-			},
-			{
 				Name = "Red/Blue",
 				Auto = {1},
-				Props = {}
+				Bodygroups = {{5, 0}}
 			},
 			{
-				Name = "Blue/Blue",
+				Name = "Blue",
 				Auto = {15},
-				Props = {}
+				Bodygroups = {{5, 0}}
 			},
 			{
-				Name = "Red/Red",
+				Name = "Red",
 				Auto = {29},
-				Props = {}
+				Bodygroups = {{5, 0}}
 			},
 			{
-				Name = "Amber/Amber",
+				Name = "Amber",
 				Auto = {43},
-				Props = {}
+				Bodygroups = {{5, 0}}
 			},
 			{
 				Name = "Amber/White",
 				Auto = {57},
-				Props = {}
+				Bodygroups = {{5, 0}}
 			},
 			{
-				Name = "Green/Green",
+				Name = "Green",
 				Auto = {71},
-				Props = {}
+				Bodygroups = {{5, 0}}
+			},
+			{
+				Name = "None",
+				Auto = {},
+				Bodygroups = {{5, 1}}
 			}
 		}
 	},
