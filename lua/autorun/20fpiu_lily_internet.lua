@@ -1204,45 +1204,45 @@ EMV.Selections = {
 				Auto = {},
 				Bodygroups = {{3, 0}}
 			},
+		}
+	},
+	{
+		Name = "Grill Lights",
+		Options = {
 			{
 				Name = "Red/Blue",
 				Auto = {7},
-				Props = {}
+				Bodygroups = {{2, 0}}
 			},
 			{
-				Name = "Blue/Blue",
+				Name = "Blue",
 				Auto = {21},
-				Props = {}
+				Bodygroups = {{2, 0}}
 			},
 			{
-				Name = "Red/Red",
+				Name = "Red",
 				Auto = {35},
-				Props = {}
+				Bodygroups = {{2, 0}}
 			},
 			{
-				Name = "Amber/Amber",
+				Name = "Amber",
 				Auto = {49},
-				Props = {}
+				Bodygroups = {{2, 0}}
 			},
 			{
 				Name = "Amber/White",
 				Auto = {63},
-				Props = {}
+				Bodygroups = {{2, 0}}
 			},
 			{
-				Name = "Green/Green",
+				Name = "Green",
 				Auto = {77},
-				Props = {}
-			}
-		}
-	},
-	{
-		Name = "Pushbar Lights",
-		Options = {
+				Bodygroups = {{2, 0}}
+			},
 			{
 				Name = "None",
 				Auto = {},
-				Props = {}
+				Bodygroups = {{2, 1}}
 			},
 			-- R/B
 			{
