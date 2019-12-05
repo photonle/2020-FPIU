@@ -1005,84 +1005,84 @@ EMV.Selections = {
 				Category = "Red/Blue",
 				Name = "Stock",
 				Auto = {14},
-				Bodygroups = {{10, 0}},
+				Bodygroups = {{10, 0}}
 			},
 			{
 				Category = "Red/Blue",
 				Name = "Custom",
 				Auto = {3},
-				Bodygroups = {{10, 0}},
+				Bodygroups = {{10, 0}}
 			},
 			-- B/B
 			{
 				Category = "Blue",
 				Name = "Stock",
 				Auto = {27},
-				Bodygroups = {{10, 0}},
+				Bodygroups = {{10, 0}}
 			},
 			{
 				Category = "Blue",
 				Name = "Custom",
 				Auto = {17},
-				Bodygroups = {{10, 0}},
+				Bodygroups = {{10, 0}}
 			},
 			-- R/R
 			{
 				Category = "Red",
 				Name = "Stock",
 				Auto = {40},
-				Bodygroups = {{10, 0}},
+				Bodygroups = {{10, 0}}
 			},
 			{
 				Category = "Red",
 				Name = "Custom",
 				Auto = {31},
-				Props = {}
+				Bodygroups = {{10, 0}}
 			},
 			-- A/A
 			{
 				Category = "Amber",
 				Name = "Stock",
 				Auto = {55},
-				Bodygroups = {{10, 0}},
+				Bodygroups = {{10, 0}}
 			},
 			{
 				Category = "Amber",
 				Name = "Custom",
 				Auto = {45},
-				Bodygroups = {{10, 0}},
+				Bodygroups = {{10, 0}}
 			},
 			-- A/W
 			{
 				Category = "Amber/White",
 				Name = "Stock",
 				Auto = {69},
-				Bodygroups = {{10, 0}},
+				Bodygroups = {{10, 0}}
 			},
 			{
 				Category = "Amber/White",
 				Name = "Custom",
 				Auto = {59},
-				Bodygroups = {{10, 0}},
+				Bodygroups = {{10, 0}}
 			},
 			-- G/G
 			{
 				Category = "Green",
 				Name = "Stock",
 				Auto = {83},
-				Bodygroups = {{10, 0}},
+				Bodygroups = {{10, 0}}
 			},
 			{
 				Category = "Green",
 				Name = "Custom",
 				Auto = {73},
-				Bodygroups = {{10, 0}},
+				Bodygroups = {{10, 0}}
 			},
 			-- None
 			{
 				Name = "None",
 				Auto = {},
-				Bodygroups = {{10, 1}},
+				Bodygroups = {{10, 1}}
 			},
 		}
 	},
