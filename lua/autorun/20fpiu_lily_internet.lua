@@ -1656,7 +1656,7 @@ EMV.Sequences = {
 			Disconnect = {}
 		},
 		{
-			Name = "Spotlight",
+			Name = "Spot",
 			Icon = "lamp",
 			Stage = "S",
 			Components = {{1, CW}},
